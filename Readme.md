@@ -1,7 +1,7 @@
 # Mutation Analysis for the Multi-Objective Approach for Test Case Generation
 Implementation of the Mutation Analysis for the Multi-Objective Approach for Test Case Generation
 
-This projects supports and verifies the mutation analysis performed in [1]. It has been developed with Eclipse Modeling Tools, version IDE 2019-12 R. ATL plugin is needed. 
+This project supports and verifies the mutation analysis performed in [1]. It has been developed with Eclipse Modeling Tools, version IDE 2019-12 R. ATL plugin is needed. 
 There is a project named Mutation_Analysis.
 
 **Mutation_Analysis**
