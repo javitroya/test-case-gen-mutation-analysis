@@ -7,7 +7,8 @@ There is a project named Mutation_Analysis.
 **Mutation_Analysis**
 
 This project contains the mutation analysis performed on four case studies [1].
-Folders “analysis_caseStudyName” contain all the artifacts regarding each of the case studies. 
+Folders “analysis_caseStudyName” contain all the artifacts regarding each of the case studies. For instance, there is a file named "OCL_Constraints.txt" with the OCL contracts that serve as Oracle. The model transformation mutants are available in folder "transformations", and the models generated automatically by our multi-objective approach are located in folder "model" ("AutomaticModel_CaseStudyName<Number>.xmi").
+  
 The executable Java file is available at src->es.us.eii.mutation.analysis.main-> MutationAnalysis_Main.
 
 In order to execute it with the different case studies and the different mutants, some lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting Run As -> Java Application. The code in this Java class contains explanations for executing each case study:
