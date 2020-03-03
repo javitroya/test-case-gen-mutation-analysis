@@ -1,4 +1,0 @@
---The following 10 OCL constraints are taken from the TSE 2015 paper
-
---OCL1. It checks that for every PetriNet, there must be created an PNMLDocument with the same location
-SrcPetriNet.allInstances()->forAll(p | TrgPNMLDocument.allInstances()->exists(e | p.location = e.location))
