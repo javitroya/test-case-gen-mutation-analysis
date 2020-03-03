@@ -16,6 +16,6 @@ In order to execute it with the different case studies and the different mutants
 -	PetriNet2PNML. An explanation can be found in lines 77-81.
 -	Grafcet2PetriNet. An explanation can be found in lines 83-87.
 
-After executing the program, some information will be displayed in the console. At the end, it indicates the file with the result of the mutation analysis. This is a CSV file that is placed in results folder of the corresponding analysis_caseStudyName folder.
+After executing the program, some information will be displayed in the console. At the end, it indicates the file with the result of the mutation analysis. This is a CSV file that is placed in the results folder of the corresponding analysis_caseStudyName folder.
 
 [1] Meysam Karimi, Shekoufeh Kolahdouz-Rahimi, Javier Troya. "Test case generation for model transformation testing: a multi-objective approach". Submitted, 2020
