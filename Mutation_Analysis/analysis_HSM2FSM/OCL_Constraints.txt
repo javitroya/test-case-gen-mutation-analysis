@@ -1,0 +1,41 @@
+--The following OCL constraints are taken from http://eprints.maynoothuniversity.ie/7089/1/ZCHENG-THESIS-FINAL.pdf
+
+--OCL1. Different target state machines have different names
+TrgStateMachine.allInstances()->forAll(s1,s2 | s1<>s2 implies s1.name<>s2.name)
+
+--OCL2. States have unique names
+TrgAbstractState.allInstances()->forAll(s1,s2 | s1<>s2 implies s1.name<>s2.name)
+
+--OCL3. A state does belong to at least one state machine
+TrgAbstractState.allInstances()->forAll(s | not s.stateMachine.oclIsUndefined())
+
+--OCL4. A state does belong to at most one state machine
+TrgAbstractState.allInstances()->forAll(s | TrgStateMachine.allInstances()->forAll(sm1,sm2 | s.stateMachine=sm1 and s.stateMachine=sm2 implies sm1=sm2))
+
+--OCL5. A transition does belong to at least one state machine
+TrgTransition.allInstances()->forAll(t | not t.stateMachine.oclIsUndefined())
+
+--OCL6. A transition does belong to at most one state machine
+TrgTransition.allInstances()->forAll(t | TrgStateMachine.allInstances()->forAll(sm1,sm2 | t.stateMachine=sm1 and t.stateMachine=sm2 implies sm1=sm2))
+
+--OCL7. A transition has at least one source
+TrgTransition.allInstances()->forAll(t | not t.source.oclIsUndefined())
+
+--OCL8. A transition has at most one source
+TrgTransition.allInstances()->forAll(t | TrgAbstractState.allInstances()->forAll(s1,s2 | t.source=s1 and t.source=s2 implies s1=s2))
+
+--OCL9. A transition has at least one target
+TrgTransition.allInstances()->forAll(t | not t.target.oclIsUndefined())
+
+--OCL10. A transition has at most one target
+TrgTransition.allInstances()->forAll(t | TrgAbstractState.allInstances()->forAll(s1,s2 | t.target=s1 and t.target=s2 implies s1=s2))
+
+--OCL11. Transition and source in the same state machine
+TrgTransition.allInstances()->forAll(t | TrgAbstractState.allInstances()->forAll(s | t.source=s implies TrgStateMachine.allInstances()->forAll(sm1,sm2 | t.stateMachine=sm1 and s.stateMachine=sm2 implies sm1=sm2)))
+--TrgTransition.allInstances()->forAll(t | TrgAbstractState.allInstances()->forAll(s | t.source=s implies t.stateMachine=s.stateMachine))
+
+--OCL12. Transition and target in the same state machine
+TrgTransition.allInstances()->forAll(t | TrgAbstractState.allInstances()->forAll(s | t.target=s implies TrgStateMachine.allInstances()->forAll(sm1,sm2 | t.stateMachine=sm1 and s.stateMachine=sm2 implies sm1=sm2)))
+
+--OCL13. Source and target in the same state machine
+TrgTransition.allInstances()->forAll(t | TrgAbstractState.allInstances()->forAll(s1,s2 | t.source=s1 and t.target=s2 implies TrgStateMachine.allInstances()->forAll(sm1,sm2 | s1.stateMachine=sm1 and s2.stateMachine=sm2 implies sm1=sm2)))

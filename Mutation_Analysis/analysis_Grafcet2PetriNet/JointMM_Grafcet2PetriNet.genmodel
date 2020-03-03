@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Mutation_Analysis/src" modelPluginID="Mutation_Analysis"
+    modelName="JointMM_Grafcet2PetriNet" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>JointMM_Grafcet2PetriNet.ecore</foreignModel>
+  <genPackages prefix="JointPackage_Grafcet2PetriNet" disposableProviderFactory="true"
+      ecorePackage="JointMM_Grafcet2PetriNet.ecore#/">
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//JointMM">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//JointMM/sourceRoot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//JointMM/targetRoot"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcLocatedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//SrcLocatedElement/location"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcNamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//SrcNamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcGrafcet">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcGrafcet/elements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcGrafcet/connections"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcElement">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcElement/grafcet"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcStep">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//SrcStep/isInitial"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//SrcStep/isActive"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//SrcStep/action"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcStep/incomingConnections"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcStep/outgoingConnections"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcTransition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//SrcTransition/condition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcTransition/incomingConnections"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcTransition/outgoingConnections"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcConnection">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcConnection/grafcet"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcStepToTransition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcStepToTransition/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcStepToTransition/to"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//SrcTransitionToStep">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcTransitionToStep/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//SrcTransitionToStep/to"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgLocatedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//TrgLocatedElement/location"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgNamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//TrgNamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgPetriNet">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgPetriNet/elements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgPetriNet/arcs"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgElement">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgElement/net"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgPlace">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgPlace/incomingArc"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgPlace/outgoingArc"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgTransition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgTransition/incomingArc"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgTransition/outgoingArc"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgArc">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_Grafcet2PetriNet.ecore#//TrgArc/weight"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgArc/net"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgPlaceToTransition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgPlaceToTransition/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgPlaceToTransition/to"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_Grafcet2PetriNet.ecore#//TrgTransitionToPlace">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgTransitionToPlace/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_Grafcet2PetriNet.ecore#//TrgTransitionToPlace/to"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

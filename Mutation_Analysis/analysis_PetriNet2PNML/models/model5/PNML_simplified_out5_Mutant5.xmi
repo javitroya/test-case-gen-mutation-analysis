@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml:PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0" location="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9" id="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9">
+    <type/>
+    <contents xsi:type="pnml:Transition" location="9ioxVS9c24YoyaRV8T3w7kqOgUo8FolSgC8zsDr4JuSKhxMm7UwaxN3aBeEf0fo1" id="wslJYLjeyDOjOUrfuwvrDsW20p3bBIwcefOVI9OqE1BrOenZVSThs9RiqvDwXf8THijYD">
+      <name>
+        <labels text="wslJYLjeyDOjOUrfuwvrDsW20p3bBIwcefOVI9OqE1BrOenZVSThs9RiqvDwXf8THijYD"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Transition" location="aLoOeZ6V4Ie9nB6F4zExQFsCLH8I6UlvuZT6MxS0kD7NqtdIWKzXzfYI1BowJF4YwyA" id="DgaSIKzLrvaSLH3ITtz1hbezMo58o4gTmbHmzLJuQXizYizT3CI2MX1tqRZ8RT8L">
+      <name>
+        <labels text="DgaSIKzLrvaSLH3ITtz1hbezMo58o4gTmbHmzLJuQXizYizT3CI2MX1tqRZ8RT8L"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Transition" location="zOFecYHYiHyqzLC6iD0rBCO6xkzCP7qC0z7V6Vq9RsK2xXUEf4ATjblwYQneO" id="j3AGNgVZY40o6BDGTL9oJXJfDbwmpIk8tuDNylxl5Gc8oarqwgI6OfBEOEMr7k">
+      <name>
+        <labels text="j3AGNgVZY40o6BDGTL9oJXJfDbwmpIk8tuDNylxl5Gc8oarqwgI6OfBEOEMr7k"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Transition" location="WY4BwUxaygI1RVgtcSjus6uSuODj8MbUXOQcswyxePvqztl9fjNwTmhUh6Q04xJwA" id="vjxsPS9dXyfsBYGDpxJEIf2Y9dFgpksIrmc4tK6LjYmqzEhqmI5oBVjldm7VARdKVAwrR">
+      <name>
+        <labels text="vjxsPS9dXyfsBYGDpxJEIf2Y9dFgpksIrmc4tK6LjYmqzEhqmI5oBVjldm7VARdKVAwrR"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Transition" location="fyHwDHSOMrKCJ4FGvtpD3GB9n98FS1kOXyqyH4pjqNWLYHL6zSxXLO8q5Ttq14sE7xFZiy" id="Di4f9gn23KwOGJ2e4THwOo5hlMM2fHAVff6Ox8aciw6gzU4GFjSasqOltL8AuIXw3sDFb">
+      <name>
+        <labels text="Di4f9gn23KwOGJ2e4THwOo5hlMM2fHAVff6Ox8aciw6gzU4GFjSasqOltL8AuIXw3sDFb"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Transition" location="yzBYY4exQYFLsvJZxGdogavXFFfnuiebeKX2MTKzstfr3hmD1lVtAdieExZ" id="zGzL4765EWS7XfTdZn4HiDJTkYh4Odb37dcfG8YSJK1Evk5rq7dorHItwfd6G">
+      <name>
+        <labels text="zGzL4765EWS7XfTdZn4HiDJTkYh4Odb37dcfG8YSJK1Evk5rq7dorHItwfd6G"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Place" location="2gW7WZNZmhwT58UqkY4YheUcwe94u8UhSuvMGUANXVgXO215iqe5NsiASx1koaAbcIB" id="iOqni5cOPVRGJrb6gSrTvxWdskwkS7AVCgUTFgIhMZiLtO6CctFWB0w5Fd70z8">
+      <name>
+        <labels text="iOqni5cOPVRGJrb6gSrTvxWdskwkS7AVCgUTFgIhMZiLtO6CctFWB0w5Fd70z8"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="fdx318Pp9E3tVo0Nvorai24UtQq2vLa1yGFOpjEEFkgTELg2TlA4IVmfHqgADlZt" id="vbYAcQOKw28hAQUQ9IwyIVcEtfLXSmOOlFn01xKtNtMsolqO3HUqUIQky0phTnR5Jfn" source="//@nets.0/@contents.1" target="//@nets.0/@contents.6">
+      <name>
+        <labels text="vbYAcQOKw28hAQUQ9IwyIVcEtfLXSmOOlFn01xKtNtMsolqO3HUqUIQky0phTnR5Jfn"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="1Li67UcREttW9sxj0mRFyvfOaryNpNb32wp3FN88eNqteGBAae5tv9qOggDzKHnUOshfBc" id="o4xwozsllWTUzosQLDToSxi4qfVjHE1800MtTpPLSNgiU1n3zcfSATy2LSPy1e" source="//@nets.0/@contents.4" target="//@nets.0/@contents.6">
+      <name>
+        <labels text="o4xwozsllWTUzosQLDToSxi4qfVjHE1800MtTpPLSNgiU1n3zcfSATy2LSPy1e"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="F1xVAvYx0mRslVSoaqf7ocMbiCTSQdtAPaiKvC1f6ZjaEFTrKrCg3QcUqr" id="V9emu0VDcz2fg7sOWv6aAOcXZxAiOJ7Y1ga5Ld7RZBQE4NraMOEkHx8DpN6WstTc6" source="//@nets.0/@contents.6" target="//@nets.0/@contents.3">
+      <name>
+        <labels text="V9emu0VDcz2fg7sOWv6aAOcXZxAiOJ7Y1ga5Ld7RZBQE4NraMOEkHx8DpN6WstTc6"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="TpUipfiRSbUVzuh7kzXc4j1V7BpjdZYD7SMtA9QkHBNt6pkNcwC7F0nzaRHCr" id="GQLXb4pRC6iYuZWrcbZ1iOCwdM4Uez3xW2U1Wf3vrPvnIIQePDzYbxrmGDpTjK" source="//@nets.0/@contents.6" target="//@nets.0/@contents.0">
+      <name>
+        <labels text="GQLXb4pRC6iYuZWrcbZ1iOCwdM4Uez3xW2U1Wf3vrPvnIIQePDzYbxrmGDpTjK"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="Z01JVbZNKmygaVQdz2V7ib3AJ2VKGvnzJd7hm1dcBNVHffgRbrw8u4oL1aSI" id="gff4S0yIQfMDk37eOuy41hrSqyN1DmNEYCCX6Svik8YtliYQSJdIm0Ey33fihTgCFjA174" source="//@nets.0/@contents.6" target="//@nets.0/@contents.0">
+      <name>
+        <labels text="gff4S0yIQfMDk37eOuy41hrSqyN1DmNEYCCX6Svik8YtliYQSJdIm0Ey33fihTgCFjA174"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="zDoGGCS6WOpHVYOCl2CaC2VAPubekqphx2vpRbNtbRBtKjByOLbepuWTErNO15MBkiYUW" id="yU9erVfLmsqgpCN4Ew5I2kJocSVilWAbwFSsLBZUA1asnlCXirdyVNvMJlEyAzP" source="//@nets.0/@contents.0" target="//@nets.0/@contents.6">
+      <name>
+        <labels text="yU9erVfLmsqgpCN4Ew5I2kJocSVilWAbwFSsLBZUA1asnlCXirdyVNvMJlEyAzP"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="pGasFJkFYVRSbWyUDSNipznngqA10Y77QaPqRR4xHEt2dYNtB3lym5xpKfF" id="jTcVdVfLWj3unoozSjw2cPSYnN4Smg4VuDnEcF2AbZlYBGEOzuOVEYPkz0nfcFDnK" source="//@nets.0/@contents.6" target="//@nets.0/@contents.3">
+      <name>
+        <labels text="jTcVdVfLWj3unoozSjw2cPSYnN4Smg4VuDnEcF2AbZlYBGEOzuOVEYPkz0nfcFDnK"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Arc" location="iQrqMIDmgZQKArx7QyxAUF8d0Cgdpku8wpEyyHavSRxruXgD0Cenwu7bOVM2" id="e2b9PoMFz5dLeKkt1qk9FHtfkraH0BOY45Hmb5NSt00LO4OVARRV811kfioH5hUCERvp8E" source="//@nets.0/@contents.6" target="//@nets.0/@contents.0">
+      <name>
+        <labels text="e2b9PoMFz5dLeKkt1qk9FHtfkraH0BOY45Hmb5NSt00LO4OVARRV811kfioH5hUCERvp8E"/>
+      </name>
+    </contents>
+    <name location="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9">
+      <labels text="uKRNbrRUhSrYUu1egn5z2BFDEmHMgmNxtnCXtGW7NYpK9aHlub6KMXDuqYqXfJ"/>
+    </name>
+  </nets>
+</pnml:PNMLDocument>

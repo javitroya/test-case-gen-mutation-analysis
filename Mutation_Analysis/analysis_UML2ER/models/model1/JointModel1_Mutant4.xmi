@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="Tf2hS0u9XLZia2kDyamEzVO3PfhTtCNETrTxN3obgoNnToGGBIGxlcxlDvO">
+    <ownedElements name="ybMb9sWK8LSUcGu4nJT9Y9QRoWPenkUSlbYsAA72GlsD0aC9L3XUtIm77jO" superClasses="/0/@ownedElements.2 /0/@ownedElements.0">
+      <ownedProperty name="thdNfdvpIeyU0B9j5vXvEnmgYEkd37qTDKNri2D6CgxvK2PIc6qaS8Rsyld" primitiveType="QMe5xqMi8qr1N3lrbrAve4I5b3YbwgK1tZxogj7zwhgFBC3hMLQM3VHsJwNPs" isContainment="true"/>
+      <ownedProperty name="3PHi2f1pi5KWKf6ZUYEiE8TUBYdIIcGUh8Lt3FKvHaviPgfF4f1vpqZAug1wqVf20nDBU" primitiveType="afbnQXjdKYaoMIRMYOgnSyfVyQcaXzWRK3242Jn7GF8slKljJVf7GEQ6bApNg8Is3Ib" complexType="/0/@ownedElements.1" isContainment="true"/>
+      <ownedProperty name="k4nbJGf0kAdeyNpiO89oQnp6c02STSZUvokYbt71CENg2EctvOKbGpU2TBGBmwNuV" primitiveType="DLErT7TjrpYCRGtPFIzwRiDfeiHPMHe542ayBjggFiNFLW2qHUFylHQ9UeLDt6" isContainment="true"/>
+      <ownedProperty name="SZuH0RXNyzpQOq8TFOv2d2VvqtGEgTk8Av1Wk0lTp7GPzGYUsyWvBEHaSD" primitiveType="5DfhxfMPh1o2iojD2o3oYkvDtlgKEAshSffJtuH2jOIyXMseLpe9wplEkc"/>
+      <ownedProperty name="ATzqjrWfVlmwK4SwKQphhEQPodFURlqfrj8uoZ8Sjhyk6QHXBwpIFI3hLSYd" primitiveType="GlH8v1mOmELqSNaM7kKsr3goQMxKOF3pXH0BD18QrZrKy8UKgmVz57zvWi" complexType="/0/@ownedElements.1"/>
+      <ownedProperty name="6nJeZlmHYGO2HZwYf6zgXS3mtJTWcUpFU7SyWPiTGZLN6g3o5jdqwL6DidN7azjWF8" primitiveType="dgHs8sDuTTAaxul0lw4IqaxS5pjd4WabJCvrJG7BpBqQ2QJpiRhtJGhes0KLZk5vjpo"/>
+      <ownedProperty name="7d7LAdPgUw2WHMBFMrFSlB6VDrxn0M1pMbrFoY0r2GDGUKmvagtLHmISjuC1I" primitiveType="IpLggGWOnwtKoQ7gKoXl6jbIIpOL3ER3UpwJsKD8Ks1LYJNxWRc7Of3MO3U29es"/>
+    </ownedElements>
+    <ownedElements name="D3B0LRfOzrTxLsuw0oZRLD5k4mzNDefx6ecPoMBaYUUjtuPLCgQlx2s22b61NMqmvMk" superClasses="/0/@ownedElements.0 /0/@ownedElements.1 /0/@ownedElements.2">
+      <ownedProperty name="VfYDu02QpPlf8HoGtkEi0ytxpWfmK9SbKgy105VBoEEVd5GsVb1nZwbcdRwNNm" primitiveType="itGkdsLS0VGz0NSFRJ91art03gl6Cac4lOFuYc9MTPpCMbfbFIaCNU29Ggdj0A7dSJE" complexType="/0/@ownedElements.2"/>
+      <ownedProperty name="dbJbbG1S3TR6ptvcfAg6FCrE828iUahQs9O8fBU1wl4SAyrj18VkBCwTM0AHmbq" primitiveType="8sMiUJTjyyyGgjvJHEHKYcKzdgtcq7pN44bZkT1mSHaQhl5UgvLRDOys6yprf" isContainment="true"/>
+      <ownedProperty name="X6XBbcXE7lgKVRc8hbxToTk0yqYUJv3yNhLVOfdQApLk4DEwOqARLHlGTCVwzl4dgWm" primitiveType="oU9E0DS63tsfKyucjxe4D6jn612kl6dntbTjr2zFYXt5h3ysY1Vy2hWdM0J" isContainment="true"/>
+      <ownedProperty name="GufXAUbxaKlQlbjuIPRTzDyBm2Yc5loTyBtybaxzM9Sd79U2nELbjJNpnunwpOXPShwHgT" primitiveType="rDw83gDiAalI9srcqCBGPKYnGLYQzOPywMLX2S01ePAfH5Ec27Sdg25e9QZcgN1" isContainment="true"/>
+      <ownedProperty name="gflbz09NbTTkG08Pvzhqjzmej9xXsVekG9zW0l8vAOpH932eoLsghdCVi8vGD" primitiveType="oHGlcfOehpMT8ilLv3fyDIQVIDiNNgQzl0d3nSXrfBUjvfeC6l7YGKJPwserItT3MrH" complexType="/0/@ownedElements.2"/>
+      <ownedProperty name="pUJ38Cbnq6bHCCDoK5NIWtuGcfgX2MYfnW8PWIhZBDNk1t3dJTqEpSBzHLIs30IIVHeK" primitiveType="tX6GhwBQctJWk8WpcmqHWD0Eu9Ixm1qTbMGskspK6ASIyu5BVm9H6YxBsjiF5"/>
+      <ownedProperty name="rorUUUUZgoVSIogwIQgpA50GHm7CcerRabNHeJwNtE14sTujvG2k936wXe6yND" primitiveType="FpNBeVEY5JlvxkwtLLPo5oN7UQWOhqNlq9vznXZbDoB81IwJeSwxJ3BnGJ4ot4XXE8vzX" complexType="/0/@ownedElements.2"/>
+      <ownedProperty name="8WiSZ2qWh2WSoC6LNoVbzH657UuQ43vE2R9Fid4PrZvl8igOWDOzzdLCUohpjdc5US0Z" primitiveType="X8xDOTKkXyC4CfrZy1HFWQ9cL8g5Ay5zVAO8kt5Endk1qlKFYiV8w7RVgt4WXfgY" isContainment="true"/>
+      <ownedProperty name="mHk5ixefFeupeYPwFt75kvJxMbitJEUpwAuPoi5pvk0V8Y8z3iZPNvnZz1" primitiveType="Kd61sEcNQW7swZiZFlX5avNxmD0puFmrXnWMPa8ZiWZs1uy8czoHmPB5qsB" complexType="/0/@ownedElements.0"/>
+    </ownedElements>
+    <ownedElements name="ZG783TzCkIxggCybIJmLGpO6HUYLmSxvEb11TAVRAo781dCsq7v9ytmIhFP" superClasses="/0/@ownedElements.2">
+      <ownedProperty name="Pa3RrUk17HawDajxAbRHNtfmeoAgvy8FEkpsy9EBcAxwCgUKVaJCigRmXTdTlVKs58se" primitiveType="GPuOBv3gMcwMvKkve8goFDStj9ahkU10PInjUZjdlIEYXQMaorBKt76J8dfbVXGfc8RtcN" complexType="/0/@ownedElements.1"/>
+      <ownedProperty name="8d4DosDj93PNcQgZwMnoH7ZogctVMeWVXWU704z4KiQb6fYI1NYJvTn7VPf3BQ7W0M" primitiveType="Z8pTTTUljFSf1e5lv9mPJmRBA7FcrvncsDX1bjGXobO2F9PCqUpiPB6Buw6q"/>
+      <ownedProperty name="oIttojrLxLkVfSi3szHJxaDQCrNM6rAX7Drnbr8vbOtx2CtzV3CQ1QIrjFcYpefz" primitiveType="m8JhDbruI6Y7nPM1qaz4BYMcrPqVIq4HCAdxxHQaTQJv4ACEqwQOc25WvW41" complexType="/0/@ownedElements.1"/>
+      <ownedProperty name="bRNIHG4FugECwPh076DBw9ySDjiI68GZC6JaHvyGsBsX8KC711cQEd4tUj3atJ4OnP" primitiveType="bJIF2ou3N8xKVudwnzwEM8c22sYRs3xAbkfVNJqhSHrpc6UejeyOfpoooMIlQgNTL8i0" isContainment="true"/>
+      <ownedProperty name="iGpYUegWuARRd3vh9cqJO9gsNoYrOXMfT6BKXIzh4hAyFoSu0qHYjeuCp36S0cPK" primitiveType="Xnzst2FPd4Ph5tcz2AI3j33U7kkoM9IGxkuiEccqmDeCM9FWcMV3W1WP88BJlvluOkZU8"/>
+      <ownedProperty name="QRz0kXPW7eTDNHenR82f1Gq22GpYuLioavuCPtuiA9LIYGGYUIRpQsuGly1kyo20TpbPO0" primitiveType="flb7jJ2VjvLf0FMDW0bqytCLMQNJdiKtKSjBMpAePTibbv6wYsEhSuMxJH8139tX"/>
+      <ownedProperty name="aaqLOO3mrPgAtZ4MYqyvpr7Rv6brv1MBvaLprTfYhGLyc4SN0S96vMlZBX" primitiveType="iupXwao7qQZIYPXoeKUvXU9n3mJPH8Bd6ruZWYhg6ZPHMMEkzzEKoCC4b0"/>
+      <ownedProperty name="53bDE4Whl5JXj1G17zh8fBRAUyR50NH8P9T8jGor3fLcRvCAI7AtnJo10QaM5" primitiveType="sgn79sXbOOTM9EYPBPla4nhFRV6LzAOCNQtYiPCkEp3R9A754rdytaByCzr"/>
+    </ownedElements>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgEntityType/>
+  <jointPackage_UML2ER:TrgEntityType/>
+  <jointPackage_UML2ER:TrgEntityType/>
+  <jointPackage_UML2ER:TrgERModel name="Tf2hS0u9XLZia2kDyamEzVO3PfhTtCNETrTxN3obgoNnToGGBIGxlcxlDvO">
+    <entities name="ybMb9sWK8LSUcGu4nJT9Y9QRoWPenkUSlbYsAA72GlsD0aC9L3XUtIm77jO">
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="thdNfdvpIeyU0B9j5vXvEnmgYEkd37qTDKNri2D6CgxvK2PIc6qaS8Rsyld" type="QMe5xqMi8qr1N3lrbrAve4I5b3YbwgK1tZxogj7zwhgFBC3hMLQM3VHsJwNPs"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="3PHi2f1pi5KWKf6ZUYEiE8TUBYdIIcGUh8Lt3FKvHaviPgfF4f1vpqZAug1wqVf20nDBU" type="/4/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="k4nbJGf0kAdeyNpiO89oQnp6c02STSZUvokYbt71CENg2EctvOKbGpU2TBGBmwNuV" type="DLErT7TjrpYCRGtPFIzwRiDfeiHPMHe542ayBjggFiNFLW2qHUFylHQ9UeLDt6"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="SZuH0RXNyzpQOq8TFOv2d2VvqtGEgTk8Av1Wk0lTp7GPzGYUsyWvBEHaSD" type="5DfhxfMPh1o2iojD2o3oYkvDtlgKEAshSffJtuH2jOIyXMseLpe9wplEkc"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="ATzqjrWfVlmwK4SwKQphhEQPodFURlqfrj8uoZ8Sjhyk6QHXBwpIFI3hLSYd" type="/4/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="6nJeZlmHYGO2HZwYf6zgXS3mtJTWcUpFU7SyWPiTGZLN6g3o5jdqwL6DidN7azjWF8" type="dgHs8sDuTTAaxul0lw4IqaxS5pjd4WabJCvrJG7BpBqQ2QJpiRhtJGhes0KLZk5vjpo"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="7d7LAdPgUw2WHMBFMrFSlB6VDrxn0M1pMbrFoY0r2GDGUKmvagtLHmISjuC1I" type="IpLggGWOnwtKoQ7gKoXl6jbIIpOL3ER3UpwJsKD8Ks1LYJNxWRc7Of3MO3U29es"/>
+    </entities>
+    <entities name="D3B0LRfOzrTxLsuw0oZRLD5k4mzNDefx6ecPoMBaYUUjtuPLCgQlx2s22b61NMqmvMk">
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="VfYDu02QpPlf8HoGtkEi0ytxpWfmK9SbKgy105VBoEEVd5GsVb1nZwbcdRwNNm" type="/4/@entities.2"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="dbJbbG1S3TR6ptvcfAg6FCrE828iUahQs9O8fBU1wl4SAyrj18VkBCwTM0AHmbq" type="8sMiUJTjyyyGgjvJHEHKYcKzdgtcq7pN44bZkT1mSHaQhl5UgvLRDOys6yprf"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="X6XBbcXE7lgKVRc8hbxToTk0yqYUJv3yNhLVOfdQApLk4DEwOqARLHlGTCVwzl4dgWm" type="oU9E0DS63tsfKyucjxe4D6jn612kl6dntbTjr2zFYXt5h3ysY1Vy2hWdM0J"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="GufXAUbxaKlQlbjuIPRTzDyBm2Yc5loTyBtybaxzM9Sd79U2nELbjJNpnunwpOXPShwHgT" type="rDw83gDiAalI9srcqCBGPKYnGLYQzOPywMLX2S01ePAfH5Ec27Sdg25e9QZcgN1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="gflbz09NbTTkG08Pvzhqjzmej9xXsVekG9zW0l8vAOpH932eoLsghdCVi8vGD" type="/4/@entities.2"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="pUJ38Cbnq6bHCCDoK5NIWtuGcfgX2MYfnW8PWIhZBDNk1t3dJTqEpSBzHLIs30IIVHeK" type="tX6GhwBQctJWk8WpcmqHWD0Eu9Ixm1qTbMGskspK6ASIyu5BVm9H6YxBsjiF5"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="rorUUUUZgoVSIogwIQgpA50GHm7CcerRabNHeJwNtE14sTujvG2k936wXe6yND" type="/4/@entities.2"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="8WiSZ2qWh2WSoC6LNoVbzH657UuQ43vE2R9Fid4PrZvl8igOWDOzzdLCUohpjdc5US0Z" type="X8xDOTKkXyC4CfrZy1HFWQ9cL8g5Ay5zVAO8kt5Endk1qlKFYiV8w7RVgt4WXfgY"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="mHk5ixefFeupeYPwFt75kvJxMbitJEUpwAuPoi5pvk0V8Y8z3iZPNvnZz1" type="/4/@entities.0"/>
+    </entities>
+    <entities name="ZG783TzCkIxggCybIJmLGpO6HUYLmSxvEb11TAVRAo781dCsq7v9ytmIhFP">
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="Pa3RrUk17HawDajxAbRHNtfmeoAgvy8FEkpsy9EBcAxwCgUKVaJCigRmXTdTlVKs58se" type="/4/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="8d4DosDj93PNcQgZwMnoH7ZogctVMeWVXWU704z4KiQb6fYI1NYJvTn7VPf3BQ7W0M" type="Z8pTTTUljFSf1e5lv9mPJmRBA7FcrvncsDX1bjGXobO2F9PCqUpiPB6Buw6q"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="oIttojrLxLkVfSi3szHJxaDQCrNM6rAX7Drnbr8vbOtx2CtzV3CQ1QIrjFcYpefz" type="/4/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="bRNIHG4FugECwPh076DBw9ySDjiI68GZC6JaHvyGsBsX8KC711cQEd4tUj3atJ4OnP" type="bJIF2ou3N8xKVudwnzwEM8c22sYRs3xAbkfVNJqhSHrpc6UejeyOfpoooMIlQgNTL8i0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="iGpYUegWuARRd3vh9cqJO9gsNoYrOXMfT6BKXIzh4hAyFoSu0qHYjeuCp36S0cPK" type="Xnzst2FPd4Ph5tcz2AI3j33U7kkoM9IGxkuiEccqmDeCM9FWcMV3W1WP88BJlvluOkZU8"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="QRz0kXPW7eTDNHenR82f1Gq22GpYuLioavuCPtuiA9LIYGGYUIRpQsuGly1kyo20TpbPO0" type="flb7jJ2VjvLf0FMDW0bqytCLMQNJdiKtKSjBMpAePTibbv6wYsEhSuMxJH8139tX"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="aaqLOO3mrPgAtZ4MYqyvpr7Rv6brv1MBvaLprTfYhGLyc4SN0S96vMlZBX" type="iupXwao7qQZIYPXoeKUvXU9n3mJPH8Bd6ruZWYhg6ZPHMMEkzzEKoCC4b0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="53bDE4Whl5JXj1G17zh8fBRAUyR50NH8P9T8jGor3fLcRvCAI7AtnJo10QaM5" type="sgn79sXbOOTM9EYPBPla4nhFRV6LzAOCNQtYiPCkEp3R9A754rdytaByCzr"/>
+    </entities>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

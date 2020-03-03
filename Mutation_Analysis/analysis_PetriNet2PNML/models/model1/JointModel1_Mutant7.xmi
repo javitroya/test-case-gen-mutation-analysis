@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_PetriNet2PNML="http://jointPackage_petrinet2pnml/1.0">
+  <jointPackage_PetriNet2PNML:SrcPetriNet location="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7" name="Ff2QHtrCaT1AEIMscfuBvILs4tiH1JPoh5aZBQ6moENdGVh3NWgvMdd6FExgK8bZPz4vAd">
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="Sqnmj8ayKVPR4zrvph3Nuayy0pfeCFfWGiSe49NXHqFPWUDaaUh75c4dsmoMAZWK" name="H7bhzX8MaiCh1rKlcpqInaZltfhijIcfQW1GFlL6jfINiZkRzLiVUww5xx4j"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="gNhvzXmqymZUzh94lWL6KMaa0nJjgPxMgSYccq3EA9UYsMzKBgzLEPCDb3DTQXiYq" name="63MZ4JUPNlCg96XCKqX8j91BYqDtC4e0GMTUTJk2x2oaPJmiWhHJYVcDSa0jUNb64VOU8q"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="QxvriTEbXzdWUir8PbPGzyavh9nzrYlhbAEa6mAOXCef4x35GXF6e3HDyOA2fhcSRQKCV" name="b1DD14Lr65flvW4RBB1YrhrHbXY0FiAhru7tEFmg3b9256YasclU06RHrj6XOVAXSS2XXk"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="pN8IRpTRIYbzdTjeLcegvsgYPN3iJuBYk5RB7PThFwaLeGZF0G8evLCFIZl9uOqNtprFJH" name="Ae3FvhujqrWOtdYSl2Z7KQLc7aGSKndmYYYAvknZMhrlpDe7HlF73eyXtKG7qUQ0luWlU"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="U7JOB0t5oTNB8TTauozvKhQPrR6BOkm24imtWhiR2yE13OVCtBy7qvr1Ekoni" name="H9d5UY4AmP115WTck6q0NtnQrdgxlAzjZCdCGpYhtKznKQ3E8zyvRhOPGabo"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="GPI4iV2jEoSWNBt1tU9rVilaB67YyJDk13tAqACMVL95JZtjinxKNIqAWIT2b3GyJ6BOAI" name="ehzlSQiXP4M3CpLbBMX6B7ellQM81C70D9O1WzOtKaKRDIuktj7xBNF9IRzjAdEwPTAqj"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="rasoHOWl0wdMQR0lehM9ZvJMatiVreXiAnzIFzkCnre07K2TLdEdP52pBxl2IVyrLM" name="vSHe3FHYmqaCGWUgVIhCL7UyKfM8TuoFUQltPolankPSjvJDF3ilPHm9HbJWz3L"/>
+  </jointPackage_PetriNet2PNML:SrcPetriNet>
+  <jointPackage_PetriNet2PNML:TrgPNMLDocument location="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7" id="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="Sqnmj8ayKVPR4zrvph3Nuayy0pfeCFfWGiSe49NXHqFPWUDaaUh75c4dsmoMAZWK" id="H7bhzX8MaiCh1rKlcpqInaZltfhijIcfQW1GFlL6jfINiZkRzLiVUww5xx4j">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="gNhvzXmqymZUzh94lWL6KMaa0nJjgPxMgSYccq3EA9UYsMzKBgzLEPCDb3DTQXiYq" id="63MZ4JUPNlCg96XCKqX8j91BYqDtC4e0GMTUTJk2x2oaPJmiWhHJYVcDSa0jUNb64VOU8q">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="QxvriTEbXzdWUir8PbPGzyavh9nzrYlhbAEa6mAOXCef4x35GXF6e3HDyOA2fhcSRQKCV" id="b1DD14Lr65flvW4RBB1YrhrHbXY0FiAhru7tEFmg3b9256YasclU06RHrj6XOVAXSS2XXk">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="pN8IRpTRIYbzdTjeLcegvsgYPN3iJuBYk5RB7PThFwaLeGZF0G8evLCFIZl9uOqNtprFJH" id="Ae3FvhujqrWOtdYSl2Z7KQLc7aGSKndmYYYAvknZMhrlpDe7HlF73eyXtKG7qUQ0luWlU">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="U7JOB0t5oTNB8TTauozvKhQPrR6BOkm24imtWhiR2yE13OVCtBy7qvr1Ekoni" id="H9d5UY4AmP115WTck6q0NtnQrdgxlAzjZCdCGpYhtKznKQ3E8zyvRhOPGabo">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="rasoHOWl0wdMQR0lehM9ZvJMatiVreXiAnzIFzkCnre07K2TLdEdP52pBxl2IVyrLM" id="vSHe3FHYmqaCGWUgVIhCL7UyKfM8TuoFUQltPolankPSjvJDF3ilPHm9HbJWz3L">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="GPI4iV2jEoSWNBt1tU9rVilaB67YyJDk13tAqACMVL95JZtjinxKNIqAWIT2b3GyJ6BOAI" id="ehzlSQiXP4M3CpLbBMX6B7ellQM81C70D9O1WzOtKaKRDIuktj7xBNF9IRzjAdEwPTAqj">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" location="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7" id="Added_Place"/>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7" id="Added_Transition"/>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" source="/1/@nets.0/@contents.7" target="/1/@nets.0/@contents.8"/>
+      <name location="ngIRIfcgLwtLQCKu1eC7QICVgFuNTE5zQLiuIj1ZaqtSQ1dFqmlzqeZIfT5hS7">
+        <labels/>
+      </name>
+    </nets>
+  </jointPackage_PetriNet2PNML:TrgPNMLDocument>
+</xmi:XMI>

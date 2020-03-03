@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="CPL2Program">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/0/@service"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/0/@service/@sessions.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/0/@service/@sessions.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NotPresent2ErrorResponse">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.1/@notPresent"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.2"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.0/@declaration"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.0/@declaration/@type"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.0/@declaration/@initExp"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="Proxy2Select">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.3"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration/@type"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration/@initExp"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.0/@declaration/@initExp/@exp"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@matchedExp"/>
+  </traceLinks>
+  <traceLinks ruleName="NoAnswer2SelectCase">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.3/@noAnswer"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.0/@values.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.0/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Redirection2SelectCase">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.3/@redirection"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.1"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.1/@values.0"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault/@statements.0/@statements.1/@selectCases.1/@values.0/@response"/>
+  </traceLinks>
+  <traceLinks ruleName="Default2SelectDefault">
+    <sourceElements href="analysis_CPL2SPL/models/model1/AutomaticModel_CPL1.xmi#//@elements.2/@default"/>
+    <targetElements href="analysis_CPL2SPL/models/model1/SPL_out1_Mutant32.xmi#/2/@statements.1/@selectDefault"/>
+  </traceLinks>
+</trace:Trace>

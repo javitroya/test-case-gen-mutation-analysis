@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/SpecBased_FaultLoc_MT/src" modelPluginID="SpecBased_FaultLoc_MT"
+    modelName="JointMM_HSM2FSM" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>JointMM_HSM2FSM.ecore</foreignModel>
+  <genPackages prefix="JointPackage_HSM2FSM" disposableProviderFactory="true" ecorePackage="JointMM_HSM2FSM.ecore#/0">
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/JointMM">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/JointMM/sourceRoot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/JointMM/targetRoot"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcRoot">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcRoot/statemachines"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcStateMachine">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_HSM2FSM.ecore#/0/SrcStateMachine/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcStateMachine/transitions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcStateMachine/states"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcTransition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_HSM2FSM.ecore#/0/SrcTransition/label"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcTransition/stateMachine"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcTransition/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcTransition/target"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcAbstractState">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_HSM2FSM.ecore#/0/SrcAbstractState/name"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcAbstractState/stateMachine"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcAbstractState/compositeStates"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcInitialState"/>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcRegularState"/>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/SrcCompositeState">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/SrcCompositeState/states"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgRoot">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgRoot/stateMachines"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgStateMachine">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_HSM2FSM.ecore#/0/TrgStateMachine/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgStateMachine/transitions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgStateMachine/states"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgTransition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_HSM2FSM.ecore#/0/TrgTransition/label"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgTransition/stateMachine"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgTransition/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgTransition/target"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgAbstractState">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute JointMM_HSM2FSM.ecore#/0/TrgAbstractState/name"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgAbstractState/stateMachine"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgAbstractState/compositeStates"/>
+    </genClasses>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgInitialState"/>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgRegularState"/>
+    <genClasses ecoreClass="JointMM_HSM2FSM.ecore#/0/TrgCompositeState">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference JointMM_HSM2FSM.ecore#/0/TrgCompositeState/states"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

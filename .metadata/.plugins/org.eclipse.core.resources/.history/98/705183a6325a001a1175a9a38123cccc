@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petriNet:Root
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:petriNet="http://petrinet/1.0"
+    xsi:schemaLocation="http://petrinet/1.0 /MetTesting_ModTrans4Wiki/evaluation_PetriNet2PNML/PetriNet.ecore">
+  <petrinets
+      location="location"
+      name="name">
+    <elements
+        xsi:type="petriNet:Place"
+        location="location"
+        name="name"/>
+    <elements
+        xsi:type="petriNet:Place"
+        location="depm"
+        name="q4kv"
+        incomingArc="//@petrinets.0/@arcs.2"/>
+    <elements
+        xsi:type="petriNet:Place"
+        location="ccnr"
+        name="t9m4"
+        incomingArc="//@petrinets.0/@arcs.1"
+        outgoingArc="//@petrinets.0/@arcs.0"/>
+    <elements
+        xsi:type="petriNet:Transition"
+        location="location"
+        name="name"
+        incomingArc="//@petrinets.0/@arcs.0"
+        outgoingArc="//@petrinets.0/@arcs.2 //@petrinets.0/@arcs.1"/>
+    <arcs xsi:type="petriNet:PlaceToTransition"
+        location="location"
+        name="name"
+        from="//@petrinets.0/@elements.2"
+        to="//@petrinets.0/@elements.3"/>
+    <arcs xsi:type="petriNet:TransitionToPlace"
+        location="location"
+        name="name"
+        from="//@petrinets.0/@elements.3"
+        to="//@petrinets.0/@elements.2"/>
+    <arcs xsi:type="petriNet:TransitionToPlace"
+        location="agsi"
+        name="oczk"
+        weight="1"
+        from="//@petrinets.0/@elements.3"
+        to="//@petrinets.0/@elements.1"/>
+    <elements xsi:type="petriNet:Transition" location="location" name="name"/>
+  </petrinets>
+</petriNet:Root>

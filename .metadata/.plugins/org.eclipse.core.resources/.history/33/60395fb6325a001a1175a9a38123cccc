@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pnml:fuTM_PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0" location="xazd">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="xazd" id="xazd">
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="pnml:fuTM_Place" location="qavo" id="wr3d">
+      <name>
+        <labels text="wr3d"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Place" location="9wvw" id="w0io">
+      <name>
+        <labels text="w0io"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Place" location="e4t0" id="jgju">
+      <name>
+        <labels text="jgju"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="xc2c" id="3474">
+      <name>
+        <labels text="3474"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="wawv" id="jux6">
+      <name>
+        <labels text="jux6"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="uopc" id="c3uw">
+      <name>
+        <labels text="c3uw"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="itw3" id="edy0">
+      <name>
+        <labels text="edy0"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="lsv7" id="6u37">
+      <name>
+        <labels text="6u37"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="5g5j" id="jswh">
+      <name>
+        <labels text="jswh"/>
+      </name>
+    </contents>
+    <name location="xazd">
+      <labels text="o5bw"/>
+    </name>
+  </nets>
+</pnml:fuTM_PNMLDocument>

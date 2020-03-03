@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="PetriNet">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="PetriNet">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.0"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.1"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.3"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.4"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.4"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.5"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.5"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.1"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.3"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.5"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.5"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.6"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.6"/>
+  </traceLinks>
+  <traceLinks ruleName="Place">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.8"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.8"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.2"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.6"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.6"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@elements.7"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@elements.7"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.0"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.2"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.4"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.4"/>
+  </traceLinks>
+  <traceLinks ruleName="Transition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/1/@elements.7"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/1/@elements.7"/>
+  </traceLinks>
+  <traceLinks ruleName="PlaceToTransition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.4"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.4"/>
+  </traceLinks>
+  <traceLinks ruleName="PlaceToTransition">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.6"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.6"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.0"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.0"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.1"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.1"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.2"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.2"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.3"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.3"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.5"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.5"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.7"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.7"/>
+  </traceLinks>
+  <traceLinks ruleName="TransitionToStep">
+    <sourceElements href="analysis_Grafcet2PetriNet/models/model4/AutomaticModel_Grafcet4.xmi#/0/@connections.8"/>
+    <targetElements href="analysis_Grafcet2PetriNet/models/model4/PetriNet_out4_Mutant6.xmi#/0/@arcs.8"/>
+  </traceLinks>
+</trace:Trace>

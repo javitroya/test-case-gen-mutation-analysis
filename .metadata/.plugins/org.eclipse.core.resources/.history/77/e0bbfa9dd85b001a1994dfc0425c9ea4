@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="jointPackage" nsURI="http://jointPackage/1.0" nsPrefix="jointPackage">
+    <eClassifiers xsi:type="ecore:EClass" name="JointMM">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRoot" lowerBound="1"
+          containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="targetRoot" lowerBound="1"
+          containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcLocatedElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcNamedElement" abstract="true" eSuperTypes="/0/SrcLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcGrafcet" eSuperTypes="/0/SrcNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elements" ordered="false"
+          upperBound="-1" eType="/0/SrcElement" containment="true" eOpposite="/0/SrcElement/grafcet"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="connections" ordered="false"
+          upperBound="-1" eType="/0/SrcConnection" containment="true" eOpposite="/0/SrcConnection/grafcet"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcElement" abstract="true" eSuperTypes="/0/SrcNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="grafcet" ordered="false"
+          lowerBound="1" eType="/0/SrcGrafcet" eOpposite="/0/SrcGrafcet/elements"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcStep" eSuperTypes="/0/SrcElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isInitial" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isActive" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="action" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incomingConnections"
+          ordered="false" upperBound="-1" eType="/0/SrcTransitionToStep" eOpposite="/0/SrcTransitionToStep/to"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingConnections"
+          ordered="false" upperBound="-1" eType="/0/SrcStepToTransition" eOpposite="/0/SrcStepToTransition/from"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcTransition" eSuperTypes="/0/SrcElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="condition" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incomingConnections"
+          ordered="false" upperBound="-1" eType="/0/SrcStepToTransition" eOpposite="/0/SrcStepToTransition/to"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingConnections"
+          ordered="false" upperBound="-1" eType="/0/SrcTransitionToStep" eOpposite="/0/SrcTransitionToStep/from"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcConnection" abstract="true" eSuperTypes="/0/SrcNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="grafcet" ordered="false"
+          lowerBound="1" eType="/0/SrcGrafcet" eOpposite="/0/SrcGrafcet/connections"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcStepToTransition" eSuperTypes="/0/SrcConnection">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false"
+          lowerBound="1" eType="/0/SrcStep" eOpposite="/0/SrcStep/outgoingConnections"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="to" ordered="false" lowerBound="1"
+          eType="/0/SrcTransition" eOpposite="/0/SrcTransition/incomingConnections"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="SrcTransitionToStep" eSuperTypes="/0/SrcConnection">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false"
+          lowerBound="1" eType="/0/SrcTransition" eOpposite="/0/SrcTransition/outgoingConnections"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="to" ordered="false" lowerBound="1"
+          eType="/0/SrcStep" eOpposite="/0/SrcStep/incomingConnections"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgLocatedElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgNamedElement" abstract="true" eSuperTypes="/0/TrgLocatedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPetriNet" eSuperTypes="/0/TrgNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="elements" ordered="false"
+          upperBound="-1" eType="/0/TrgElement" containment="true" eOpposite="/0/TrgElement/net"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="arcs" ordered="false"
+          upperBound="-1" eType="/0/TrgArc" containment="true" eOpposite="/0/TrgArc/net"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgElement" abstract="true" eSuperTypes="/0/TrgNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="net" ordered="false"
+          lowerBound="1" eType="/0/TrgPetriNet" eOpposite="/0/TrgPetriNet/elements"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPlace" eSuperTypes="/0/TrgElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incomingArc" ordered="false"
+          upperBound="-1" eType="/0/TrgTransitionToPlace" eOpposite="/0/TrgTransitionToPlace/to"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingArc" ordered="false"
+          upperBound="-1" eType="/0/TrgPlaceToTransition" eOpposite="/0/TrgPlaceToTransition/from"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgTransition" eSuperTypes="/0/TrgElement">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="incomingArc" ordered="false"
+          lowerBound="1" upperBound="-1" eType="/0/TrgPlaceToTransition" eOpposite="/0/TrgPlaceToTransition/to"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingArc" ordered="false"
+          lowerBound="1" upperBound="-1" eType="/0/TrgTransitionToPlace" eOpposite="/0/TrgTransitionToPlace/from"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgArc" abstract="true" eSuperTypes="/0/TrgNamedElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="weight" ordered="false"
+          lowerBound="1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="net" ordered="false"
+          lowerBound="1" eType="/0/TrgPetriNet" eOpposite="/0/TrgPetriNet/arcs"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgPlaceToTransition" eSuperTypes="/0/TrgArc">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false"
+          lowerBound="1" eType="/0/TrgPlace" eOpposite="/0/TrgPlace/outgoingArc"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="to" ordered="false" lowerBound="1"
+          eType="/0/TrgTransition" eOpposite="/0/TrgTransition/incomingArc"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="TrgTransitionToPlace" eSuperTypes="/0/TrgArc">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="from" ordered="false"
+          lowerBound="1" eType="/0/TrgTransition" eOpposite="/0/TrgTransition/outgoingArc"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="to" ordered="false" lowerBound="1"
+          eType="/0/TrgPlace" eOpposite="/0/TrgPlace/incomingArc"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EGenericType eClassifier="/0/SrcLocatedElement"/>
+  <ecore:EGenericType eClassifier="/0/SrcNamedElement"/>
+  <ecore:EGenericType eClassifier="/0/SrcNamedElement"/>
+  <ecore:EGenericType eClassifier="/0/SrcElement"/>
+  <ecore:EGenericType eClassifier="/0/SrcElement"/>
+  <ecore:EGenericType eClassifier="/0/SrcNamedElement"/>
+  <ecore:EGenericType eClassifier="/0/SrcConnection"/>
+  <ecore:EGenericType eClassifier="/0/SrcConnection"/>
+  <ecore:EGenericType eClassifier="/0/TrgLocatedElement"/>
+  <ecore:EGenericType eClassifier="/0/TrgNamedElement"/>
+  <ecore:EGenericType eClassifier="/0/TrgNamedElement"/>
+  <ecore:EGenericType eClassifier="/0/TrgElement"/>
+  <ecore:EGenericType eClassifier="/0/TrgElement"/>
+  <ecore:EGenericType eClassifier="/0/TrgNamedElement"/>
+  <ecore:EGenericType eClassifier="/0/TrgArc"/>
+  <ecore:EGenericType eClassifier="/0/TrgArc"/>
+</xmi:XMI>

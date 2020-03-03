@@ -1,0 +1,53 @@
+/**
+ */
+package jointPackage;
+
+import org.eclipse.emf.common.util.EList;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Src Place</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link jointPackage.SrcPlace#getIncomingArc <em>Incoming Arc</em>}</li>
+ *   <li>{@link jointPackage.SrcPlace#getOutgoingArc <em>Outgoing Arc</em>}</li>
+ * </ul>
+ *
+ * @see jointPackage.JointPackagePackage#getSrcPlace()
+ * @model
+ * @generated
+ */
+public interface SrcPlace extends SrcElement {
+	/**
+	 * Returns the value of the '<em><b>Incoming Arc</b></em>' reference list.
+	 * The list contents are of type {@link jointPackage.SrcTransitionToPlace}.
+	 * It is bidirectional and its opposite is '{@link jointPackage.SrcTransitionToPlace#getTo <em>To</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Incoming Arc</em>' reference list.
+	 * @see jointPackage.JointPackagePackage#getSrcPlace_IncomingArc()
+	 * @see jointPackage.SrcTransitionToPlace#getTo
+	 * @model opposite="to" ordered="false"
+	 * @generated
+	 */
+	EList<SrcTransitionToPlace> getIncomingArc();
+
+	/**
+	 * Returns the value of the '<em><b>Outgoing Arc</b></em>' reference list.
+	 * The list contents are of type {@link jointPackage.SrcPlaceToTransition}.
+	 * It is bidirectional and its opposite is '{@link jointPackage.SrcPlaceToTransition#getFrom <em>From</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Outgoing Arc</em>' reference list.
+	 * @see jointPackage.JointPackagePackage#getSrcPlace_OutgoingArc()
+	 * @see jointPackage.SrcPlaceToTransition#getFrom
+	 * @model opposite="from" ordered="false"
+	 * @generated
+	 */
+	EList<SrcPlaceToTransition> getOutgoingArc();
+
+} // SrcPlace

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_PetriNet2PNML -->
+      <package
+            uri="http://jointPackage_petrinet2pnml/1.0"
+            class="jointPackage_PetriNet2PNML.JointPackage_PetriNet2PNMLPackage"
+            genModel="analysis_PetriNet2PNML/JointMM_PetriNet2PNML.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_Grafcet2PetriNet -->
+      <package
+            uri="http://jointPackage_grafcet2petrinet/1.0"
+            class="jointPackage_Grafcet2PetriNet.JointPackage_Grafcet2PetriNetPackage"
+            genModel="analysis_Grafcet2PetriNet/JointMM_Grafcet2PetriNet.genmodel"/>
+   </extension>
+
+</plugin>

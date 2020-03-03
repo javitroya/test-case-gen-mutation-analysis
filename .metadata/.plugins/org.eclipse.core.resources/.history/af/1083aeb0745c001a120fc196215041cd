@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="ltChDvtbJS1N1XSmlhrmIluTHgqhPySg3M8Xh8jPSKYriCXMP3J8F8aeUaEBmQZ7">
+    <ownedElements name="oqlRLhdLFnNJmI6YHAcjxL5odNs4NvD3ZpsZM65oijl671KBVdcAVqifOasJZvuwTRoIl" superClasses="/0/@ownedElements.0 /0/@ownedElements.1 /0/@ownedElements.4 /0/@ownedElements.2 /0/@ownedElements.6">
+      <ownedProperty name="fLFSstVAUwPEWzgCWgFpRugq0cpnYB44ZTwhyCCcxTy78uYOR2B4FWas0DMtr1Quic" primitiveType="yFru4M5ur4ecDe1v7gBk6cwclWPanCUvfAhB7l8j1xdYpnidYYz3mChKD24ULlTNE2iDl" complexType="/0/@ownedElements.4" isContainment="true"/>
+      <ownedProperty name="cHSCGLKEaXX9YYwKF4peaZaQvvtJVMY5zkvLCCDEfvyoeSIxUJaYB6N8uDuHp" primitiveType="MNio8sUmW4Y4gvMewKEZMijaKkQ5SG3np00suFRg11UZvVY9WlnjGCXHSx6yslIHADCO0" complexType="/0/@ownedElements.6" isContainment="true"/>
+      <ownedProperty name="WxRoCCEbH9aY7Ydgt5OznZPgkAYsqStL1RRbZTHOJupMX55QVdQMDf5CHE" primitiveType="8NXvGU0WF7lpFLpJlJ26nzHPaXSMybxKVWv8cONpUOmjeUgGIDyv9IMzkNsQ2cmt" complexType="/0/@ownedElements.2"/>
+      <ownedProperty name="3DEYynTDoFMAe9MHUK540jWAazyXynEWKKOmUmwTlFAeX4moXaaBIRtD6AI" primitiveType="UEmVJepxj4gRBorKMYPigQI1Mm2fa8RJTw8vBcQzUwbpdRVAhyRDtKiL40zeRA" complexType="/0/@ownedElements.1" isContainment="true"/>
+      <ownedProperty name="inNqNoJhF9D2hcayd1fZFpZoxasT3719xTSTMdm4Uf1djLI3XkW5GST1ylt4qEYopiQ" primitiveType="3tmU9du8JxtXHL2yQl7PkMSavtb6wvxNG0bN2yOxjvKvQeRtcy1mWnfgkCA" complexType="/0/@ownedElements.0"/>
+      <ownedProperty name="C4lr17TF1b6SmejasPjXp83pmpWMNNjH9YOAAcCj3KBf2UtE8ww8ca1Yhi6ML" primitiveType="NomIHZonQlXmSaHGea29ns1wcANKTkAvju1jtastVWqL4gLoSLNIDhhbyu9xKe" complexType="/0/@ownedElements.2" isContainment="true"/>
+      <ownedProperty name="pUoPyt3tWP7bePKjiPOHJq8cOTt8a5TbVqgN3UVtrcyOhbXkSNClHrNFuNxzZbzfHgdi" primitiveType="4IwjOAYszb4CBKnye0Eirj16nLHd6HCXwFSBgRlKucVvNwuk3daIO1oBTLy" complexType="/0/@ownedElements.3" isContainment="true"/>
+      <ownedProperty name="HgnUE3uu8401hpPG4UgeTUzon2rHExsMuQNUuhJmRwHgCW3Ql6Xf5csFQqpNmZR" primitiveType="ryC0Vii0Guf1dAStWGFLKkfkfIGAbcTAfxwia66cVIXLvYAHQw49hl70awd463OdbQBtIn" complexType="/0/@ownedElements.0"/>
+      <ownedProperty name="0SlfpwMhoGt8OxxQVlhjIy0REWuD1yuhjEUAILnuWdVIKV25WCzzYHC34cBXGRbizaIy" primitiveType="jhjCcBYLcjHOxs4uGGb6hirMJcag7mnQe5bJRg1aT70jUecTLsHk9LgQCT6XZCY8aM7" complexType="/0/@ownedElements.5"/>
+    </ownedElements>
+    <ownedElements name="17vkk0OQDEbooPG71INrfYr4jcQUZUD2HyifqJ447eKLQ9tkkNYvvY0q5gQ4lfupRIKJ" superClasses="/0/@ownedElements.5 /0/@ownedElements.0 /0/@ownedElements.6 /0/@ownedElements.3">
+      <ownedProperty name="d9TG8EBooz8VPlCpryrE9ElwII0tdwaZq1Wxim0uRrEy5qDEwJob9SZsLFpiwsz" primitiveType="CAp6rDDzke79VALjRxh2qhXztJM2YN8gzIm7JXf3uIV8vNH7gftRClYzvb8qG3ACu82" complexType="/0/@ownedElements.4" isContainment="true"/>
+      <ownedProperty name="sKYIwOwWTDo7HKWEr94daS9fkNqMJxFiRajQK0z36BquxHOBicdI1iw3hzpfrukx" primitiveType="jrNcVPsoffqrYLZam7kzm3PXpMe3gjjYXTmxxpt34cyU0crqRvuf0D4eQfe43ST" complexType="/0/@ownedElements.3" isContainment="true"/>
+      <ownedProperty name="EyM4Dmw5nFRB4oZt4EmeqgIqpDY6mTvp6AQRSMynEwpflBSN9pkq41ZMBNrb2AbTepG" primitiveType="xYS0ByC1pWiOkMu7kpmbrnVnJZh235PbhGUJS1RkhHmtHcXglmONjbnBeLMO8Sge" complexType="/0/@ownedElements.5"/>
+      <ownedProperty name="3iZ0ILcFHbEdz6vT1DUHPc6pxcoOAM30dpKXqJKRxnpSGvcr5XQreBB4RRBLJOMnzcl2Lv" primitiveType="ABcT2XAjEegdTYvjVjj7S8J0yWq9GquBTEfchbMizl6MYLW7S5OplTaFFExMBpTOvJz" complexType="/0/@ownedElements.3" isContainment="true"/>
+      <ownedProperty name="8Wc9JydBDtA8VvEIJ8PJzwEWKW9W3swqVgptONUBbDlHDWDgH44X7JLjMB9" primitiveType="DMOkco2Ni6JBDXvwzRZnTBcrKBAZUWkxns6VxU54Q9Plf9unPIGvdrKuLX" complexType="/0/@ownedElements.3" isContainment="true"/>
+      <ownedProperty name="6eM31Pn4AjbyHfPXGnf2aNvefVjvfKZY3S9qYRDaY12lnMIoHprvI08BnisMg" primitiveType="NgYwq9svK29OndNXmX00z8BGDvjY8GjCRXZt6MNemXrVq1qX38DixXy8cMDaHr" complexType="/0/@ownedElements.4" isContainment="true"/>
+      <ownedProperty name="r0YXB708ZqnM61Vev6lb4yvYnZ655rhckM4OwXD5sxpZK78c3YE1xgErgV6QCJwILAW" primitiveType="JM5ytIRIw6bHy9jNptyp3I2TfStSzNgvXPC4NtFKDcw2vsx00R3Sq44OBEo" complexType="/0/@ownedElements.0"/>
+    </ownedElements>
+    <ownedElements name="0OhwgEsgqUVDflwfYf4YHW0AHgPhEVykt6Bvb8EK7aFYpxb6NWlV3iRsbdwXCNrmmMeN02" superClasses="/0/@ownedElements.2 /0/@ownedElements.6 /0/@ownedElements.1 /0/@ownedElements.0 /0/@ownedElements.5 /0/@ownedElements.4 /0/@ownedElements.3">
+      <ownedProperty name="ZuqNjKVFfyVfds3tPluocszx1sRWEhHPuK7gdHHfFkyU7t1pTNdiMbH6UaIcE" primitiveType="V92TbaeblikPVYMej3B2x0ccMSZ82fRrn1ztFUwaBFLwQrSvvjR60mdDECVKohvH8o2IQ" complexType="/0/@ownedElements.0"/>
+      <ownedProperty name="QEraCnzBaJMe5Qq0pzkgBV7qAGPF4rI7rTTABzYDavkdmFD4CUJT0w0cGltDJQN" primitiveType="HPknTHBGSRM5b5IghUEqXKhWYGCgklO4CRnS4twiF5JjmcWGlAcPxTP5gRiw9Z17QUmHdq" complexType="/0/@ownedElements.5"/>
+      <ownedProperty name="zK2HYJr7ZWaiW74tDfhufecCFo4BxeJ4aw6GavKjMdLrFoprl6hHEbEIf0" primitiveType="gH60A2rYFsbaCR2fSjZMe7YmpWrpDiP9uTEuSdaCA7FeIoLHIARyJEaTazruhqmbXauf" complexType="/0/@ownedElements.6"/>
+      <ownedProperty name="HoWroYU0GmuEu4yHqCGVoK669pE0or1gaOt2EFu4QfSO7kmtifUzdHjvneHIhbmm" primitiveType="D4yS57oVjxurYUpokJIeV8xlxbV9k9s68RLIJBxCe3upfklfFXKtV5JdDOq0uwGzyqZpxw" complexType="/0/@ownedElements.4" isContainment="true"/>
+      <ownedProperty name="Ri5zi31dQo5oxI8IeUs74Kc2bC8KVa2GPJdC2VVXIJqHdkl3JXGwWOy0Cycyi1JAYTtKn" primitiveType="ql2TgUJHzj0RvitHkYUaJUKxCixCYC7DDSPcyP1tMexjtroxKHyIUjz02UzN8Z" complexType="/0/@ownedElements.5"/>
+      <ownedProperty name="hsWJAYgBp1h4swkQkkhMUldPmVK0RGd10IR0bGuZDcTs5iXHaE7Hvut3ennHbK9EMbv8" primitiveType="JIsLKgc14JlHqaUslnF0LkzmzZDtohxQu2KGPXlcsaDHf0Iw7uArkSYJhZyfPUcLvJCP8" complexType="/0/@ownedElements.1"/>
+      <ownedProperty name="9TWvHC7uE2ezVaNfxX7LKvZ4UaK08vMtuBQUNuTJ66T4KISMbX3VjZ5gF0x" primitiveType="0hkBkyNIMEEJJsyXdqpLfWxJcVQCjn6ZCvxlHR4HfIFUAzyJjORSTKLwtdVHI1Tun8R" complexType="/0/@ownedElements.1"/>
+    </ownedElements>
+    <ownedElements name="jipLTOcxs2kf53opfd0IbbUthwJQAm58IvxqlI9sBMHWHnBS73cOz3mjRJRrCwGj9V19JS" superClasses="/0/@ownedElements.3 /0/@ownedElements.2 /0/@ownedElements.6 /0/@ownedElements.1 /0/@ownedElements.4"/>
+    <ownedElements name="75HbESSIJ3j6T1MAo0kPORXFHT8C6J7L49o68lhtMpOvAIB8VLCETwziMI" superClasses="/0/@ownedElements.1 /0/@ownedElements.2 /0/@ownedElements.3 /0/@ownedElements.6 /0/@ownedElements.0 /0/@ownedElements.5"/>
+    <ownedElements name="3pUHrB8ZwKzzXVNi7cCrSdClQ4NuikJULODdtrUeH2ewve3LN8Wpi3xR3pI4i3D1VzFqVh" superClasses="/0/@ownedElements.6 /0/@ownedElements.5 /0/@ownedElements.0 /0/@ownedElements.2"/>
+    <ownedElements name="azd4llce2hxV3Wr6ZzOPiulrl5lGCQ6AV6HvBXutAywxogOpCWgjCD3O73a2gSO3" superClasses="/0/@ownedElements.2 /0/@ownedElements.4 /0/@ownedElements.1 /0/@ownedElements.5"/>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="ltChDvtbJS1N1XSmlhrmIluTHgqhPySg3M8Xh8jPSKYriCXMP3J8F8aeUaEBmQZ7">
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.4"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.6"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.2"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.2"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.3"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.5"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.4"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.3"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.5"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.3"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.3"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.4"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.0"/>
+    </entities>
+    <entities name="new name for the class">
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.0"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.5"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.6"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="new name for the feature" type="/1/@entities.4"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.5"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="new name for the feature" type="/1/@entities.1"/>
+    </entities>
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+    <entities name="new name for the class"/>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

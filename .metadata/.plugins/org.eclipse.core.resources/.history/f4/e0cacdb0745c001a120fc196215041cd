@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_UML2ER="http://jointPackage_uml2er/1.0">
+  <jointPackage_UML2ER:SrcPackage name="WSdmrBN9J8HDWIIwQFcf0PLL1KJ5mW89MXLXhicLCrcm7mijm6iZbOTL16">
+    <ownedElements name="sRSzfIXgUJbmUKkpqAfTlFt5laEqhWQFz5hHi917zR7BMdAHdepysH0Krkg" superClasses="/0/@ownedElements.0">
+      <ownedProperty name="Ma1tnyK4hcE6eueazL4mnnC2bDa2sjxGCNbgZqhsoSj19tgnGNRJwWWhPjQUk1" primitiveType="mdnjLU53GUUsY149ykVhMJv4yKPAf6cmwzqBA1PbgegwqvpVCPfcVFWxwb"/>
+      <ownedProperty name="7xMVGLSMidPzplIkh2heQgVapA8V2XauG7NTelA7RdhPNHNcJI4zgtprK069rNDpIlKpg" primitiveType="9VPX7iBCxyq8DJ4orhc6oXgn2jkSqOTzGspCyAgaIQOMDz3cwrlampotTERP" complexType="/0/@ownedElements.0"/>
+      <ownedProperty name="XQL3P4kHNbN8GZBS6RUt7AsRl98u7FR2LvrZdqVCpo0Idma0EiHbD4MlwMsuyzlQF" primitiveType="qr4GulEw9zZijs512xUHS6G8eaXUXiwzvHyH3iOI6Gr6iecOvopfUGP5gSqiFUfpe" complexType="/0/@ownedElements.0" isContainment="true"/>
+      <ownedProperty name="rjI4M1cIyf9JvNZmJsenDgVwlhLWuLE8FTAjyAY5LD499dy6VVvAAEeBTafhkplYT4U" primitiveType="dJnLtwOklTnU7E9WKd3qeBASS9BFenXNtutqzCkL23UNpZ8JAV9enRYmGP0FEGhF" isContainment="true"/>
+      <ownedProperty name="2V52uLUjSJtvYv5kGVDarLBP6wiCT9Ib0XuMnXWN0o8b1nfcQzwzTARAseSK2xCzs" primitiveType="Kaij0Qrp6wlOJewJH0fs2MPoo6MFB7d3sYCsjESmCyuCGmySWJCsG4fc6IOiM9" isContainment="true"/>
+      <ownedProperty name="iSvXksbzwTuE6m4d5LwOWayqxSLLBNGcdL5pNmKbIDghG6fRZW9vcjL6oejxuPqB4n" primitiveType="pvNo155twiWo1fUYQ1sb9vFeHESzBg74sT0gXiLenIslhzolATpKFPRMKo2HlB4NkS34T" isContainment="true"/>
+      <ownedProperty name="tmCdYUHHXMj3s0S1xGHsyMmwYxiFZ0DebnKi1WnbyoANRk0WkXOnKmsjvYakPeNYGfV" primitiveType="DjQRTXfuoECnguOxzhfDX956vXeXUsex1IT1nJ1UA32t5f3Yefixpo1CQM3huYqP" isContainment="true"/>
+      <ownedProperty name="goB3b6J7zv3mNncgHVUloUHoXzyljcgU1LgDBegfC3nEufJzfX7Lb2HtNcVr3AUAq73" primitiveType="F0ZTgi4LinqvGQKUY3N2u1PyGC8saP9wMe8jaoJPcrIinaz9CkUqCA9NWkweKgu"/>
+      <ownedProperty name="Jy9VOhwNSzBNTPMOKrJIdJIeeEkPnx8wv050j1POprolFQm0eiHJCJ6BzoWNl5db" primitiveType="gLxYiqJCyJvPq06lw5avzKUXFryVnrisjuGsWA2Rnf2vYkDlTzMsNCkhtu42Yfx" complexType="/0/@ownedElements.1" isContainment="true"/>
+    </ownedElements>
+    <ownedElements name="gCzJdH0WZf6yJ6AVRb2Ek2A7zSlwGQe6eCY08MBRtkF7HNmmfJqFgp7UTwv" superClasses="/0/@ownedElements.0 /0/@ownedElements.1"/>
+  </jointPackage_UML2ER:SrcPackage>
+  <jointPackage_UML2ER:TrgERModel name="WSdmrBN9J8HDWIIwQFcf0PLL1KJ5mW89MXLXhicLCrcm7mijm6iZbOTL16">
+    <entities name="sRSzfIXgUJbmUKkpqAfTlFt5laEqhWQFz5hHi917zR7BMdAHdepysH0Krkg">
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="Ma1tnyK4hcE6eueazL4mnnC2bDa2sjxGCNbgZqhsoSj19tgnGNRJwWWhPjQUk1"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="7xMVGLSMidPzplIkh2heQgVapA8V2XauG7NTelA7RdhPNHNcJI4zgtprK069rNDpIlKpg" type="9VPX7iBCxyq8DJ4orhc6oXgn2jkSqOTzGspCyAgaIQOMDz3cwrlampotTERP"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="XQL3P4kHNbN8GZBS6RUt7AsRl98u7FR2LvrZdqVCpo0Idma0EiHbD4MlwMsuyzlQF" type="qr4GulEw9zZijs512xUHS6G8eaXUXiwzvHyH3iOI6Gr6iecOvopfUGP5gSqiFUfpe"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="rjI4M1cIyf9JvNZmJsenDgVwlhLWuLE8FTAjyAY5LD499dy6VVvAAEeBTafhkplYT4U"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="2V52uLUjSJtvYv5kGVDarLBP6wiCT9Ib0XuMnXWN0o8b1nfcQzwzTARAseSK2xCzs"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="iSvXksbzwTuE6m4d5LwOWayqxSLLBNGcdL5pNmKbIDghG6fRZW9vcjL6oejxuPqB4n"/>
+      <features xsi:type="jointPackage_UML2ER:TrgStrongReference" name="tmCdYUHHXMj3s0S1xGHsyMmwYxiFZ0DebnKi1WnbyoANRk0WkXOnKmsjvYakPeNYGfV"/>
+      <features xsi:type="jointPackage_UML2ER:TrgWeakReference" name="goB3b6J7zv3mNncgHVUloUHoXzyljcgU1LgDBegfC3nEufJzfX7Lb2HtNcVr3AUAq73"/>
+      <features xsi:type="jointPackage_UML2ER:TrgAttribute" name="Jy9VOhwNSzBNTPMOKrJIdJIeeEkPnx8wv050j1POprolFQm0eiHJCJ6BzoWNl5db" type="gLxYiqJCyJvPq06lw5avzKUXFryVnrisjuGsWA2Rnf2vYkDlTzMsNCkhtu42Yfx"/>
+    </entities>
+    <entities name="gCzJdH0WZf6yJ6AVRb2Ek2A7zSlwGQe6eCY08MBRtkF7HNmmfJqFgp7UTwv"/>
+  </jointPackage_UML2ER:TrgERModel>
+</xmi:XMI>

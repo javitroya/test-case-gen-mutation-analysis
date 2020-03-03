@@ -1,0 +1,45 @@
+/**
+ */
+package jointPackage;
+
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Trg URI</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link jointPackage.TrgURI#getValue <em>Value</em>}</li>
+ * </ul>
+ *
+ * @see jointPackage.JointPackagePackage#getTrgURI()
+ * @model
+ * @generated
+ */
+public interface TrgURI extends TrgLocatedElement {
+	/**
+	 * Returns the value of the '<em><b>Value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Value</em>' attribute.
+	 * @see #setValue(String)
+	 * @see jointPackage.JointPackagePackage#getTrgURI_Value()
+	 * @model required="true" ordered="false"
+	 * @generated
+	 */
+	String getValue();
+
+	/**
+	 * Sets the value of the '{@link jointPackage.TrgURI#getValue <em>Value</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Value</em>' attribute.
+	 * @see #getValue()
+	 * @generated
+	 */
+	void setValue(String value);
+
+} // TrgURI

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jointPackage_PetriNet2PNML="http://jointPackage_petrinet2pnml/1.0">
+  <jointPackage_PetriNet2PNML:SrcPetriNet location="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9" name="uKRNbrRUhSrYUu1egn5z2BFDEmHMgmNxtnCXtGW7NYpK9aHlub6KMXDuqYqXfJ">
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcPlace" location="2gW7WZNZmhwT58UqkY4YheUcwe94u8UhSuvMGUANXVgXO215iqe5NsiASx1koaAbcIB" name="iOqni5cOPVRGJrb6gSrTvxWdskwkS7AVCgUTFgIhMZiLtO6CctFWB0w5Fd70z8" incomingArc="/0/@arcs.0 /0/@arcs.1 /0/@arcs.2" outgoingArc="/0/@arcs.3 /0/@arcs.4 /0/@arcs.5 /0/@arcs.6 /0/@arcs.7"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="9ioxVS9c24YoyaRV8T3w7kqOgUo8FolSgC8zsDr4JuSKhxMm7UwaxN3aBeEf0fo1" name="wslJYLjeyDOjOUrfuwvrDsW20p3bBIwcefOVI9OqE1BrOenZVSThs9RiqvDwXf8THijYD" incomingArc="/0/@arcs.4 /0/@arcs.5 /0/@arcs.7" outgoingArc="/0/@arcs.2"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="aLoOeZ6V4Ie9nB6F4zExQFsCLH8I6UlvuZT6MxS0kD7NqtdIWKzXzfYI1BowJF4YwyA" name="DgaSIKzLrvaSLH3ITtz1hbezMo58o4gTmbHmzLJuQXizYizT3CI2MX1tqRZ8RT8L" outgoingArc="/0/@arcs.0"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="zOFecYHYiHyqzLC6iD0rBCO6xkzCP7qC0z7V6Vq9RsK2xXUEf4ATjblwYQneO" name="j3AGNgVZY40o6BDGTL9oJXJfDbwmpIk8tuDNylxl5Gc8oarqwgI6OfBEOEMr7k"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="WY4BwUxaygI1RVgtcSjus6uSuODj8MbUXOQcswyxePvqztl9fjNwTmhUh6Q04xJwA" name="vjxsPS9dXyfsBYGDpxJEIf2Y9dFgpksIrmc4tK6LjYmqzEhqmI5oBVjldm7VARdKVAwrR" incomingArc="/0/@arcs.3 /0/@arcs.6"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="fyHwDHSOMrKCJ4FGvtpD3GB9n98FS1kOXyqyH4pjqNWLYHL6zSxXLO8q5Ttq14sE7xFZiy" name="Di4f9gn23KwOGJ2e4THwOo5hlMM2fHAVff6Ox8aciw6gzU4GFjSasqOltL8AuIXw3sDFb" outgoingArc="/0/@arcs.1"/>
+    <elements xsi:type="jointPackage_PetriNet2PNML:SrcTransition" location="yzBYY4exQYFLsvJZxGdogavXFFfnuiebeKX2MTKzstfr3hmD1lVtAdieExZ" name="zGzL4765EWS7XfTdZn4HiDJTkYh4Odb37dcfG8YSJK1Evk5rq7dorHItwfd6G"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcTransitionToPlace" location="fdx318Pp9E3tVo0Nvorai24UtQq2vLa1yGFOpjEEFkgTELg2TlA4IVmfHqgADlZt" name="vbYAcQOKw28hAQUQ9IwyIVcEtfLXSmOOlFn01xKtNtMsolqO3HUqUIQky0phTnR5Jfn" weight="1329122260" from="/0/@elements.2" to="/0/@elements.0"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcTransitionToPlace" location="1Li67UcREttW9sxj0mRFyvfOaryNpNb32wp3FN88eNqteGBAae5tv9qOggDzKHnUOshfBc" name="o4xwozsllWTUzosQLDToSxi4qfVjHE1800MtTpPLSNgiU1n3zcfSATy2LSPy1e" weight="-1859000510" from="/0/@elements.5" to="/0/@elements.0"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcTransitionToPlace" location="zDoGGCS6WOpHVYOCl2CaC2VAPubekqphx2vpRbNtbRBtKjByOLbepuWTErNO15MBkiYUW" name="yU9erVfLmsqgpCN4Ew5I2kJocSVilWAbwFSsLBZUA1asnlCXirdyVNvMJlEyAzP" weight="2056209540" from="/0/@elements.1" to="/0/@elements.0"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcPlaceToTransition" location="F1xVAvYx0mRslVSoaqf7ocMbiCTSQdtAPaiKvC1f6ZjaEFTrKrCg3QcUqr" name="V9emu0VDcz2fg7sOWv6aAOcXZxAiOJ7Y1ga5Ld7RZBQE4NraMOEkHx8DpN6WstTc6" weight="-1832320302" from="/0/@elements.0" to="/0/@elements.4"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcPlaceToTransition" location="TpUipfiRSbUVzuh7kzXc4j1V7BpjdZYD7SMtA9QkHBNt6pkNcwC7F0nzaRHCr" name="GQLXb4pRC6iYuZWrcbZ1iOCwdM4Uez3xW2U1Wf3vrPvnIIQePDzYbxrmGDpTjK" weight="-172528512" from="/0/@elements.0" to="/0/@elements.1"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcPlaceToTransition" location="Z01JVbZNKmygaVQdz2V7ib3AJ2VKGvnzJd7hm1dcBNVHffgRbrw8u4oL1aSI" name="gff4S0yIQfMDk37eOuy41hrSqyN1DmNEYCCX6Svik8YtliYQSJdIm0Ey33fihTgCFjA174" weight="-876432771" from="/0/@elements.0" to="/0/@elements.1"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcPlaceToTransition" location="pGasFJkFYVRSbWyUDSNipznngqA10Y77QaPqRR4xHEt2dYNtB3lym5xpKfF" name="jTcVdVfLWj3unoozSjw2cPSYnN4Smg4VuDnEcF2AbZlYBGEOzuOVEYPkz0nfcFDnK" weight="-635119509" from="/0/@elements.0" to="/0/@elements.4"/>
+    <arcs xsi:type="jointPackage_PetriNet2PNML:SrcPlaceToTransition" location="iQrqMIDmgZQKArx7QyxAUF8d0Cgdpku8wpEyyHavSRxruXgD0Cenwu7bOVM2" name="e2b9PoMFz5dLeKkt1qk9FHtfkraH0BOY45Hmb5NSt00LO4OVARRV811kfioH5hUCERvp8E" weight="-1102523433" from="/0/@elements.0" to="/0/@elements.1"/>
+  </jointPackage_PetriNet2PNML:SrcPetriNet>
+  <jointPackage_PetriNet2PNML:TrgPNMLDocument location="loc">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9" id="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="9ioxVS9c24YoyaRV8T3w7kqOgUo8FolSgC8zsDr4JuSKhxMm7UwaxN3aBeEf0fo1" id="wslJYLjeyDOjOUrfuwvrDsW20p3bBIwcefOVI9OqE1BrOenZVSThs9RiqvDwXf8THijYD">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="aLoOeZ6V4Ie9nB6F4zExQFsCLH8I6UlvuZT6MxS0kD7NqtdIWKzXzfYI1BowJF4YwyA" id="DgaSIKzLrvaSLH3ITtz1hbezMo58o4gTmbHmzLJuQXizYizT3CI2MX1tqRZ8RT8L">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="zOFecYHYiHyqzLC6iD0rBCO6xkzCP7qC0z7V6Vq9RsK2xXUEf4ATjblwYQneO" id="j3AGNgVZY40o6BDGTL9oJXJfDbwmpIk8tuDNylxl5Gc8oarqwgI6OfBEOEMr7k">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="WY4BwUxaygI1RVgtcSjus6uSuODj8MbUXOQcswyxePvqztl9fjNwTmhUh6Q04xJwA" id="vjxsPS9dXyfsBYGDpxJEIf2Y9dFgpksIrmc4tK6LjYmqzEhqmI5oBVjldm7VARdKVAwrR">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="fyHwDHSOMrKCJ4FGvtpD3GB9n98FS1kOXyqyH4pjqNWLYHL6zSxXLO8q5Ttq14sE7xFZiy" id="Di4f9gn23KwOGJ2e4THwOo5hlMM2fHAVff6Ox8aciw6gzU4GFjSasqOltL8AuIXw3sDFb">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgTransition" location="yzBYY4exQYFLsvJZxGdogavXFFfnuiebeKX2MTKzstfr3hmD1lVtAdieExZ" id="zGzL4765EWS7XfTdZn4HiDJTkYh4Odb37dcfG8YSJK1Evk5rq7dorHItwfd6G">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgPlace" id="iOqni5cOPVRGJrb6gSrTvxWdskwkS7AVCgUTFgIhMZiLtO6CctFWB0w5Fd70z8">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="fdx318Pp9E3tVo0Nvorai24UtQq2vLa1yGFOpjEEFkgTELg2TlA4IVmfHqgADlZt" id="vbYAcQOKw28hAQUQ9IwyIVcEtfLXSmOOlFn01xKtNtMsolqO3HUqUIQky0phTnR5Jfn" source="/1/@nets.0/@contents.1" target="/1/@nets.0/@contents.6">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="1Li67UcREttW9sxj0mRFyvfOaryNpNb32wp3FN88eNqteGBAae5tv9qOggDzKHnUOshfBc" id="o4xwozsllWTUzosQLDToSxi4qfVjHE1800MtTpPLSNgiU1n3zcfSATy2LSPy1e" source="/1/@nets.0/@contents.4" target="/1/@nets.0/@contents.6">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="F1xVAvYx0mRslVSoaqf7ocMbiCTSQdtAPaiKvC1f6ZjaEFTrKrCg3QcUqr" id="V9emu0VDcz2fg7sOWv6aAOcXZxAiOJ7Y1ga5Ld7RZBQE4NraMOEkHx8DpN6WstTc6" source="/1/@nets.0/@contents.6" target="/1/@nets.0/@contents.3">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="TpUipfiRSbUVzuh7kzXc4j1V7BpjdZYD7SMtA9QkHBNt6pkNcwC7F0nzaRHCr" id="GQLXb4pRC6iYuZWrcbZ1iOCwdM4Uez3xW2U1Wf3vrPvnIIQePDzYbxrmGDpTjK" source="/1/@nets.0/@contents.6" target="/1/@nets.0/@contents.0">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="Z01JVbZNKmygaVQdz2V7ib3AJ2VKGvnzJd7hm1dcBNVHffgRbrw8u4oL1aSI" id="gff4S0yIQfMDk37eOuy41hrSqyN1DmNEYCCX6Svik8YtliYQSJdIm0Ey33fihTgCFjA174" source="/1/@nets.0/@contents.6" target="/1/@nets.0/@contents.0">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="zDoGGCS6WOpHVYOCl2CaC2VAPubekqphx2vpRbNtbRBtKjByOLbepuWTErNO15MBkiYUW" id="yU9erVfLmsqgpCN4Ew5I2kJocSVilWAbwFSsLBZUA1asnlCXirdyVNvMJlEyAzP" source="/1/@nets.0/@contents.0" target="/1/@nets.0/@contents.6">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="pGasFJkFYVRSbWyUDSNipznngqA10Y77QaPqRR4xHEt2dYNtB3lym5xpKfF" id="jTcVdVfLWj3unoozSjw2cPSYnN4Smg4VuDnEcF2AbZlYBGEOzuOVEYPkz0nfcFDnK" source="/1/@nets.0/@contents.6" target="/1/@nets.0/@contents.3">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <contents xsi:type="jointPackage_PetriNet2PNML:TrgArc" location="iQrqMIDmgZQKArx7QyxAUF8d0Cgdpku8wpEyyHavSRxruXgD0Cenwu7bOVM2" id="e2b9PoMFz5dLeKkt1qk9FHtfkraH0BOY45Hmb5NSt00LO4OVARRV811kfioH5hUCERvp8E" source="/1/@nets.0/@contents.6" target="/1/@nets.0/@contents.0">
+        <name>
+          <labels/>
+        </name>
+      </contents>
+      <name location="oSGaNzauYVFjTUcl1UPnCw4I88vjVDyUX5ZJwgHEq5wVjWZDCqx4titZVJ9VggXDcAI9">
+        <labels/>
+      </name>
+    </nets>
+  </jointPackage_PetriNet2PNML:TrgPNMLDocument>
+</xmi:XMI>

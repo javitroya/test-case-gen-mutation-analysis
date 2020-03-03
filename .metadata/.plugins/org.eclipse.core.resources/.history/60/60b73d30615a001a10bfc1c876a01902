@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pnml="http://html/1.0">
+  <pnml:PNMLDocument location="AsfBCk3I4d2lrZHHaRvRP0SWfJgjsYcCSI4yBQY9bOkVyAqPVHnMRcjg2uOEp">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="AsfBCk3I4d2lrZHHaRvRP0SWfJgjsYcCSI4yBQY9bOkVyAqPVHnMRcjg2uOEp" id="AsfBCk3I4d2lrZHHaRvRP0SWfJgjsYcCSI4yBQY9bOkVyAqPVHnMRcjg2uOEp">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <name location="AsfBCk3I4d2lrZHHaRvRP0SWfJgjsYcCSI4yBQY9bOkVyAqPVHnMRcjg2uOEp">
+        <labels text="ycd3NHGI1Taco4hZsxUk0Gb907ljUhPstNKi64chev8ts8KF3NKBo9rS6ut5hU1oylukb"/>
+      </name>
+    </nets>
+  </pnml:PNMLDocument>
+  <pnml:Place location="kIooVbUi461CYM1HJF39FNRNSs5Zo8TMu5fYme6gifMVMobyEvO4neyzVqltRn40xTsHyr" id="KZZWbweav7lZzNaRBWXINNMExIAqmX2FDlgRATTzLqx5svpihclvoiW9HEeqRU7Q">
+    <name>
+      <labels text="KZZWbweav7lZzNaRBWXINNMExIAqmX2FDlgRATTzLqx5svpihclvoiW9HEeqRU7Q"/>
+    </name>
+  </pnml:Place>
+  <pnml:Place location="zTPUCoBJ7jRattI2SbKVYfzLvO30Sx63J6Yu3ISGRLBfTdMX9HjWiJazgBwkQ3zu4eT" id="cpWH8IbNKZjew9mVBaqsV7pxYnygfzWVRseRt3iBqhZKcVsrmiIB3uZ9B1eXCT7UY86EDl">
+    <name>
+      <labels text="cpWH8IbNKZjew9mVBaqsV7pxYnygfzWVRseRt3iBqhZKcVsrmiIB3uZ9B1eXCT7UY86EDl"/>
+    </name>
+  </pnml:Place>
+  <pnml:Place location="EHW7hFgSJ21ga9UWCMtVugdeC7LJTGSoyTd8Q6JNdGO3lsnaLJiHwrQySZz" id="ETD3PjCkRUmsWXjvYA5W9zAMrvkH1sUE6WBhAFUQpxxLfqlaulxH8lwXnOhsDI2">
+    <name>
+      <labels text="ETD3PjCkRUmsWXjvYA5W9zAMrvkH1sUE6WBhAFUQpxxLfqlaulxH8lwXnOhsDI2"/>
+    </name>
+  </pnml:Place>
+  <pnml:Place location="bqD2zC1Ud6GGcltPspknKHXE5HPwlJUdyr1PGPRDnEQwN3bIsOvl9IpWtAw" id="79PDmIB3hctw4uASu9zALqMo7NwNlDod6t3F0zA5ax9ENmefwnzGX1Felr80A">
+    <name>
+      <labels text="79PDmIB3hctw4uASu9zALqMo7NwNlDod6t3F0zA5ax9ENmefwnzGX1Felr80A"/>
+    </name>
+  </pnml:Place>
+  <pnml:Transition location="6sfdesQ04Zbd5o01mmWjREwH4RlwhZsYpO7vie6kJb48sqWXYeI8kH6tEgGTsizL" id="ZbwV0mKEwuqdZanOd95Vtmk7GqZswwk63vxqhM6abrr94Wmh0XFH7YUUB8ObK">
+    <name>
+      <labels text="ZbwV0mKEwuqdZanOd95Vtmk7GqZswwk63vxqhM6abrr94Wmh0XFH7YUUB8ObK"/>
+    </name>
+  </pnml:Transition>
+  <pnml:Transition location="ADyzxpkZyIEiUB8fnzyfU9T6KNMla99zjsmHb5x3T8sCTYhJjsy1A1fSOIZgvYDAc0" id="aEonqj2CeVBG7NUSvdSTgOdZmVyrMI41dgRz6xqeiTcIPnUAIlAUcKnz0TOQG">
+    <name>
+      <labels text="aEonqj2CeVBG7NUSvdSTgOdZmVyrMI41dgRz6xqeiTcIPnUAIlAUcKnz0TOQG"/>
+    </name>
+  </pnml:Transition>
+  <pnml:Transition location="elD0Is0oCmqKpAL7LCErIgIAVLaAD8AF10WF1IJplRIuY8oPgzC7pxDAdvOEkZvsk5YsFL" id="HszJukMQb8gODhg9tyH1uuLw1phHoudLYXAqGL4Ub273uwwXIjOuJiWxgcPEFJ">
+    <name>
+      <labels text="HszJukMQb8gODhg9tyH1uuLw1phHoudLYXAqGL4Ub273uwwXIjOuJiWxgcPEFJ"/>
+    </name>
+  </pnml:Transition>
+  <pnml:Arc location="pB4V8ndgCn7ipoBnvQLaEIPf9pLSBpabK7AW71d530TDfRd3oLLmp57GXjDFIgEoO" id="9QYHjyIpTWKtR3aVSe7zKD2aATsEkwqOZWVczKMUVSH7iOcMJgL22QbMLOFBurit8UI" source="/6" target="/4">
+    <name>
+      <labels text="9QYHjyIpTWKtR3aVSe7zKD2aATsEkwqOZWVczKMUVSH7iOcMJgL22QbMLOFBurit8UI"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="ZzPAQMU6hyRpsh3trlQBlDUNODrJKeDyO4DEsXXqIzKzjN4v3q58eC28fQ" id="iXIK5pLSZtC7UXtpJJorTWvgfMVqJW7za0XD6QvA7OUT9jmqT6mH5bfcfsF4N1tM7J" source="/7" target="/3">
+    <name>
+      <labels text="iXIK5pLSZtC7UXtpJJorTWvgfMVqJW7za0XD6QvA7OUT9jmqT6mH5bfcfsF4N1tM7J"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="k1ldSxBocYyJe1R1IYcOyxL8HANgo748CS6uJW60CSybZuUofPkOjGMsKGuMUelT" id="lROxi7qf8ySKr988lAoc9lUQWLG52xotcQmAzk7ioIKXyZcA4zLB8WaMOtvjV9YrRlmtM1" source="/2" target="/5">
+    <name>
+      <labels text="lROxi7qf8ySKr988lAoc9lUQWLG52xotcQmAzk7ioIKXyZcA4zLB8WaMOtvjV9YrRlmtM1"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="DD8xJuCpsOi2cDYo0EX7JUVb9lOvR3gq5yARzmFIVCW4NpX0WXQSO6dXcLgwKD" id="zd6st9PzZBaacih1ivtyNC2vHgbWIF5VZlK8rphlSDFa6ZLV5VrUtiHnWgSXKFM" source="/3" target="/5">
+    <name>
+      <labels text="zd6st9PzZBaacih1ivtyNC2vHgbWIF5VZlK8rphlSDFa6ZLV5VrUtiHnWgSXKFM"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="U2ZWxCiw9t01UIUoVLNYnhSlfFGRCRH4Q00IhCapC6BUb40WxYmaznMCg2epgYALLEpTpw" id="wh36u00Jqsm1BwBmR6Qg10uQCLl7Bp1tio7gT7yJqUwssYCL5Icxt4ZO9yIK" source="/3" target="/5">
+    <name>
+      <labels text="wh36u00Jqsm1BwBmR6Qg10uQCLl7Bp1tio7gT7yJqUwssYCL5Icxt4ZO9yIK"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="eyxYu3NV3WW3EG5lFsDdrR2z2Mj5bIajLuhkZ3tN3XjbZdtONM5po3rPZQalu1xTndnrfs" id="JpT1mxzeexpNVaaNvR4P0NkUbZstO1s23JwTtCJkvPcOBKZIL20ezyKWd2hRcj5JSAkFR" source="/1" target="/5">
+    <name>
+      <labels text="JpT1mxzeexpNVaaNvR4P0NkUbZstO1s23JwTtCJkvPcOBKZIL20ezyKWd2hRcj5JSAkFR"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="9dMi9gQ6Db7QRCorpVPxBcm5GE4y5UxNqBncOfuYKksX3B1lBbj3bBBK7ltHe9RaWH6Nq" id="qjD0w47mheUXJHCUivg909KDcGEQfvxAkRjIWcJIxL90JduCGi8T5ZhPTTlFdsevAHOs" source="/3" target="/7">
+    <name>
+      <labels text="qjD0w47mheUXJHCUivg909KDcGEQfvxAkRjIWcJIxL90JduCGi8T5ZhPTTlFdsevAHOs"/>
+    </name>
+  </pnml:Arc>
+  <pnml:Arc location="X4dVZ7KUmDpUoAfxIWyH7z2diGzXZFmsC9oVIxBQM7EXaQ2cYwUnJOiy7fC" id="jkb5igCEubwAEryXXzoYQjxa58lNG17cqstbObAi4oZJfJp6dZ48StLRL9mNel" source="/4" target="/6">
+    <name>
+      <labels text="jkb5igCEubwAEryXXzoYQjxa58lNG17cqstbObAi4oZJfJp6dZ48StLRL9mNel"/>
+    </name>
+  </pnml:Arc>
+</xmi:XMI>

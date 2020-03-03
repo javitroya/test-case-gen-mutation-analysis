@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.1"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/2"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/3"/>
+  </traceLinks>
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.2"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/4"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/5"/>
+  </traceLinks>
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.3"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/6"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/7"/>
+  </traceLinks>
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.4"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/8"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/9"/>
+  </traceLinks>
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.5"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/10"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/11"/>
+  </traceLinks>
+  <traceLinks ruleName="SM2SM">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.6"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/12"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/13"/>
+  </traceLinks>
+  <traceLinks ruleName="RS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.0"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.0"/>
+  </traceLinks>
+  <traceLinks ruleName="RS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.1"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.1"/>
+  </traceLinks>
+  <traceLinks ruleName="RS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.3"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.2"/>
+  </traceLinks>
+  <traceLinks ruleName="RS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.3"/>
+  </traceLinks>
+  <traceLinks ruleName="RS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.7"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.4"/>
+  </traceLinks>
+  <traceLinks ruleName="IS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.2"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.5"/>
+  </traceLinks>
+  <traceLinks ruleName="IS2RS">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.8"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@states.6"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TA">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.7"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.0"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.0"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.0"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.1"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.0"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.1"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.2"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.0"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.3"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.3"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.0"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.7"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.4"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.1"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.4"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.3"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.5"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.2"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.7"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.0"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.6"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.2"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.7"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.1"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.7"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.2"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.7"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.3"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.8"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.2"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.7"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.9"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.4"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.1"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.10"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TB">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.4"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.2"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.11"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TC">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.3"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.0"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.2"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.12"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TC">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.3"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.0"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.8"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.13"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TC">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.4"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.1"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.2"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.14"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TC">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.4"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.1"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.8"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.15"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TC">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.8"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.2"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.16"/>
+  </traceLinks>
+  <traceLinks ruleName="T2TC">
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@transitions.8"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.6"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.5"/>
+    <sourceElements href="analysis_HSM2FSM/models/model3/AutomaticModel_HSM3.xmi#//@statemachines.0/@states.8"/>
+    <targetElements href="analysis_HSM2FSM/models/model3/FSM_out3_Mutant18.xmi#/0/@transitions.17"/>
+  </traceLinks>
+</trace:Trace>

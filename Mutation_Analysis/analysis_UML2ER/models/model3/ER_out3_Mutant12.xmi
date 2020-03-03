@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ER:ERModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ER="http://er" name="0e5iOOlmyRnu51gTMLJxmktrMwc8i9iWoC0PTSNAYIqD7KlB0HZM3nWC1FfIOk">
+  <entities name="rt8NJNqUv3FQPazDY6JoTkbi01aTenqIkTtD0SiQnGXRuU0U8wK1mZzDxdV39JEMTx2">
+    <features xsi:type="ER:WeakReference" name="A9K0CDvS8Offdc7ETJS37EAW2nEzG6MuPaoh1aOqASy49riuuWIYI4hdbTEF9jXBO"/>
+    <features xsi:type="ER:WeakReference" name="XpEm81BPoFfJGwuXWFeUZDgDaB0ifMtf3eeU0bLneMk9MHRlUwdM69Ubr8RsgZUu7jdy"/>
+    <features xsi:type="ER:WeakReference" name="cV0YfpMraJETX5RsFWkqjIDeQjIrzzDtuoHHbAjisOkFb4HZVus2p3jFSVwV"/>
+    <features xsi:type="ER:Attribute" name="zxSx0rACIghi60gtoA5lOEuc1cFa36MceoiwNOQ4t5U9BbPQXQl2K6Ly3oh94gQNhGmnR2" type="slamwq22vUdVWdqAwErJhJCs3Fpb1HDzxyomO7zkrsdrxCz9P2bqcJRiKH1Kvnc"/>
+    <features xsi:type="ER:Attribute" name="kEJfGTmv75PVIIhlvuAOl4OCYEFzJfgtkLzx0WgEusDotufb9tQonO4Rqo2Y" type="YCM5D4nAU4IWRkZMV6Z0efj70LqpHOGkHIa5q2QgKU2276pRc0fIQ4VhAh"/>
+    <features xsi:type="ER:StrongReference" name="Vy5N8m45LrY9UkNfSWfT3GKp6LMf59PcW9W9WyK9mQI20Z2lzFVGah6xafTPeFwF5DGv"/>
+    <features xsi:type="ER:StrongReference" name="iZ1f0PXydOxMIxeGwncyApsIA6V401QoyDVpUIcNyCukSsB6EO6Fbxf8aWiwR2d2"/>
+    <features xsi:type="ER:Attribute" name="9CzRzTOAQ6nhNcWlhhJshAPjEiBcdsNoTF54W84JcinZ1kJAwqamV8u0RpX6TU5" type="csCJYu5XTln7EVDGVnK1MxcLW4AHH6XFCxQPIigaBQw9xOAfiY9TdWuujcwZmwoMl2Q8"/>
+    <features xsi:type="ER:WeakReference" name="LLxDNrO00JTDmxuBVYMiYCrCTIowcNUjCnQox8UVDDqXRpoJ9gxWqZ1iXbX3N"/>
+  </entities>
+  <entities name="WLAGtFoNTX7Z1PT2yY7zrsCMjhZ7jFUMeubKC3FEY6iTqGDeFvgwyvEgWpRAEw0o">
+    <features xsi:type="ER:Attribute" name="yDBwjIVxeb5888VUvk8MleyU70LqhQwPSexdNItJctm2TiQLplD8j83ysTif70CFiKkFqY" type="mOP5nrYZz7ojV1OcS4S7XaWnd5pr0YTu72EUVzqGKH4xeKmvIUYRGT4vgvoYx4FQzUp4Zo"/>
+    <features xsi:type="ER:WeakReference" name="sRhFlWO6FbW8qt4Xo6umA7jR7Tlb3m3MOHTvxMN42Bnwy2ciBPiiBO7p3vA5uIYS"/>
+    <features xsi:type="ER:WeakReference" name="eZBIlZThsjkyRXK1YcXS5lOrWBLHZzKcKW9xWjxFYa8uLWcv9U7RIzLWeDB1iJdYY"/>
+    <features xsi:type="ER:Attribute" name="haEScsLeD5A6j6uuerMJ5r4hRsi45GwlGF0ou27xhJpHWKdP34DDuDVcBrkKstFGzHqv" type="8quojSf5xdV2M9KwOEG12DBIC4L69P2P8iTi4oMpBEakYbUPY2p8CogkIdJSB"/>
+    <features xsi:type="ER:StrongReference" name="aWge9D7ieUeXYVeS2fIWwGOAgXD6r5Wx2I47142mydVfCZlMmQWwKZtrZSMDsx8"/>
+    <features xsi:type="ER:WeakReference" name="lpd0KqZMmdNQhLQXEgqaWzpuzlgRl10vqus8kHROr7tYNWofH1CyZKSGNGa"/>
+    <features xsi:type="ER:StrongReference" name="A1vIfpIjF99rmwEmUUQqZE4eHjfXxvf5PZjgKfUnsm37au32qqkdpi5zNjKwRe3U9t"/>
+    <features xsi:type="ER:WeakReference" name="NkHgVzVBlkgF2RGvoz0x6XDRCrYoNsgALJeWx72EVjl5e2FvOrjPX98RcE0d69eq"/>
+    <features xsi:type="ER:Attribute" name="EVtNm8xsi95JjkE82Hd4GCFRt2hAomQKbkWFvgKEiEWj9lX0uq09ULYXRGETuJFwL21N4" type="sMZGxq1lgPBCqgCJJhqrjOF7DvxdFVbK0dQgg10mZwzfalVGmZKjDgwfLhYOdhF"/>
+  </entities>
+  <entities name="gjfVLyhJqbcWLxzVoV9cdDxEEzWU7MtMVpjnYAE0AIzft4CN4yNso3PSQ2KMgin5yz7E"/>
+</ER:ERModel>

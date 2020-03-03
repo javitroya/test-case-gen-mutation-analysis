@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petriNet:Root
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:petriNet="http://petrinet/1.0"
+    xsi:schemaLocation="http://petrinet/1.0 /MetTesting_ModTrans4Wiki/evaluation_PetriNet2PNML/PetriNet.ecore">
+  <petrinets
+      location="location"
+      name="name">
+    <elements
+        xsi:type="petriNet:Place"
+        location="azck"
+        name="6993"
+        incomingArc="//@petrinets.0/@arcs.1"/>
+    <elements
+        xsi:type="petriNet:Place"
+        location="nzen"
+        name="smu6"
+        outgoingArc="//@petrinets.0/@arcs.0"/>
+    <elements
+        xsi:type="petriNet:Transition"
+        location="location"
+        name="name"
+        incomingArc="//@petrinets.0/@arcs.0"
+        outgoingArc="//@petrinets.0/@arcs.1"/>
+    <arcs xsi:type="petriNet:PlaceToTransition"
+        location="location"
+        name="name"
+        from="//@petrinets.0/@elements.1"
+        to="//@petrinets.0/@elements.2"/>
+    <arcs xsi:type="petriNet:TransitionToPlace"
+        location="location"
+        name="name"
+        from="//@petrinets.0/@elements.2"
+        to="//@petrinets.0/@elements.0"/>
+  </petrinets>
+  <petrinets
+      location="9qhi"
+      name="rue4">
+    <elements
+        xsi:type="petriNet:Place"
+        location="kabe"
+        name="3oek"/>
+    <elements
+        xsi:type="petriNet:Place"
+        location="f5vc"
+        name="kxl3"
+        incomingArc="//@petrinets.1/@arcs.1"/>
+    <elements
+        xsi:type="petriNet:Place"
+        location="plwr"
+        name="z2w8"
+        outgoingArc="//@petrinets.1/@arcs.0"/>
+    <elements
+        xsi:type="petriNet:Transition"
+        location="nzfu"
+        name="oxug"
+        incomingArc="//@petrinets.1/@arcs.0"
+        outgoingArc="//@petrinets.1/@arcs.1"/>
+    <arcs xsi:type="petriNet:PlaceToTransition"
+        location="y90r"
+        name="j8ti"
+        from="//@petrinets.1/@elements.2"
+        to="//@petrinets.1/@elements.3"/>
+    <arcs xsi:type="petriNet:TransitionToPlace"
+        location="36ju"
+        name="3sr3"
+        from="//@petrinets.1/@elements.3"
+        to="//@petrinets.1/@elements.1"/>
+  </petrinets>
+</petriNet:Root>

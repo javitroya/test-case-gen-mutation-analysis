@@ -1,0 +1,70 @@
+/**
+ */
+package jointPackage;
+
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Src Arc</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link jointPackage.SrcArc#getWeight <em>Weight</em>}</li>
+ *   <li>{@link jointPackage.SrcArc#getNet <em>Net</em>}</li>
+ * </ul>
+ *
+ * @see jointPackage.JointPackagePackage#getSrcArc()
+ * @model abstract="true"
+ * @generated
+ */
+public interface SrcArc extends SrcNamedElement {
+	/**
+	 * Returns the value of the '<em><b>Weight</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Weight</em>' attribute.
+	 * @see #setWeight(int)
+	 * @see jointPackage.JointPackagePackage#getSrcArc_Weight()
+	 * @model required="true" ordered="false"
+	 * @generated
+	 */
+	int getWeight();
+
+	/**
+	 * Sets the value of the '{@link jointPackage.SrcArc#getWeight <em>Weight</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Weight</em>' attribute.
+	 * @see #getWeight()
+	 * @generated
+	 */
+	void setWeight(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Net</b></em>' container reference.
+	 * It is bidirectional and its opposite is '{@link jointPackage.SrcPetriNet#getArcs <em>Arcs</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Net</em>' container reference.
+	 * @see #setNet(SrcPetriNet)
+	 * @see jointPackage.JointPackagePackage#getSrcArc_Net()
+	 * @see jointPackage.SrcPetriNet#getArcs
+	 * @model opposite="arcs" required="true" transient="false" ordered="false"
+	 * @generated
+	 */
+	SrcPetriNet getNet();
+
+	/**
+	 * Sets the value of the '{@link jointPackage.SrcArc#getNet <em>Net</em>}' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Net</em>' container reference.
+	 * @see #getNet()
+	 * @generated
+	 */
+	void setNet(SrcPetriNet value);
+
+} // SrcArc

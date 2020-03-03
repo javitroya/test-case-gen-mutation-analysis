@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pnml:fuTM_PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0" location="0i6u">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="0i6u" id="0i6u">
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="pnml:fuTM_Place" id="ayik">
+      <name>
+        <labels text="ayik"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Place" id="joaq">
+      <name>
+        <labels text="joaq"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="faut" id="5nqq">
+      <name>
+        <labels text="5nqq"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="sjtu" id="ztaf">
+      <name>
+        <labels text="ztaf"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="q08t" id="ykpy">
+      <name>
+        <labels text="ykpy"/>
+      </name>
+    </contents>
+    <name location="0i6u">
+      <labels text="oade"/>
+    </name>
+  </nets>
+</pnml:fuTM_PNMLDocument>

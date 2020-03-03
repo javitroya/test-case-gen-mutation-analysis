@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http://trace/1.0">
+  <traceLinks ruleName="Package">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#/"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#/"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/1"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/2"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/2"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/3"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/3"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/4"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/4"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/5"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/5"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/6"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/6"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/7"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/7"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/8"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/8"/>
+  </traceLinks>
+  <traceLinks ruleName="Class">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/9"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/9"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.2"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.2"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.5"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.5"/>
+  </traceLinks>
+  <traceLinks ruleName="WeakReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.7"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.7"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.0/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.0/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.0"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.0"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.1"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.1"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.3"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.3"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.4"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.4"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.6"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.6"/>
+  </traceLinks>
+  <traceLinks ruleName="StrongReferences">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="References">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="Property">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.8"/>
+  </traceLinks>
+  <traceLinks ruleName="NamedElement">
+    <sourceElements href="analysis_UML2ER/models/model2/AutomaticModel_SimpleUML2.xmi#//@ownedElements.1/@ownedProperty.8"/>
+    <targetElements href="analysis_UML2ER/models/model2/ER_out2_Mutant4.xmi#/0/@entities.1/@features.8"/>
+  </traceLinks>
+</trace:Trace>

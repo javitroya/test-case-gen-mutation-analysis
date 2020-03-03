@@ -1,0 +1,83 @@
+--OCL1. It checks that for every Grafcet, there must be created a PetriNet with the same location
+SrcGrafcet.allInstances()->forAll(g | TrgPetriNet.allInstances()->exists(p | g.location = p.location))
+
+--OCL2. It checks that for every Grafcet, there must be created a PetriNEt with the same name
+SrcGrafcet.allInstances()->forAll(g | TrgPetriNet.allInstances()->exists(p | g.name = p.name))
+
+--OCL3. It checks that there is the same number of SrcStep and TrgPlace
+SrcStep.allInstances()->size() = TrgPlace.allInstances()->size()
+
+--OCL4. It checks that there is the same number of SrcTransition and TrgTransition
+SrcTransition.allInstances()->size() = TrgTransition.allInstances()->size()
+
+--OCL5. It checks that there is the same number of StepToTransition and PlaceToTransition
+SrcStepToTransition.allInstances()->size() = TrgPlaceToTransition.allInstances()->size()
+
+--OCL6. It checks that there is the same number of SrcTransitionToStep and TrgTransitionToPlace
+SrcTransitionToStep.allInstances()->size() = TrgTransitionToPlace.allInstances()->size()
+
+--OCL7. For every SrcStep there is a TrgPlace with the same location
+SrcStep.allInstances()->forAll(g | TrgPlace.allInstances()->exists(p | g.location = p.location))
+
+--OCL8. For every SrcStep there is a TrgPlace with the same name
+SrcStep.allInstances()->forAll(g | TrgPlace.allInstances()->exists(p | g.name = p.name))
+
+--OCL9. For every SrcTransition there is a TrgTransition with the same location
+SrcTransition.allInstances()->forAll(g | TrgTransition.allInstances()->exists(p | g.location = p.location))
+
+--OCL10. For every SrcTransition there is a TrgTransition with the same name
+SrcTransition.allInstances()->forAll(g | TrgTransition.allInstances()->exists(p | g.name = p.name))
+
+--OCL11. For every SrcStepToTransition there is a TrgPlaceToTransition with the same location
+SrcStepToTransition.allInstances()->forAll(g | TrgPlaceToTransition.allInstances()->exists(p | g.location = p.location))
+
+--OCL12. For every SrcStepToTransition there is a TrgPlaceToTransition with the same name
+SrcStepToTransition.allInstances()->forAll(g | TrgPlaceToTransition.allInstances()->exists(p | g.name = p.name))
+
+--OCL13. For every SrcTransitionToStep there is a TrgTransitionToPlace with the same location
+SrcTransitionToStep.allInstances()->forAll(g | TrgTransitionToPlace.allInstances()->exists(p | g.location = p.location))
+
+--OCL14. For every SrcTransitionToStep there is a TrgTransitionToPlace with the same name
+SrcTransitionToStep.allInstances()->forAll(g | TrgTransitionToPlace.allInstances()->exists(p | g.name = p.name))
+
+--OCL1. It checks that for every SrcPlace, there is a TrgPlace whose id is SrcPlace's name
+--SrcPlace.allInstances()->forAll(p | TrgPlace.allInstances()->exists(e | p.name = e.id))
+
+--OCL1. It checks that for every SrcTransition, there is a TrgPlace whose id is SrcTransition's name
+--SrcTransition.allInstances()->forAll(p | TrgTransition.allInstances()->exists(e | p.name = e.id))
+
+--OCL1. It checks that for every TransitionToPplace, there is an Arc whose id is TransitionToPlace's name
+--SrcTransitionToPlace.allInstances()->forAll(p | TrgArc.allInstances()->exists(e | p.name = e.id))
+
+--OCL1. It checks that for every PlaceToTransition, there is an Arc whose id is PlaceToTransition's name
+--SrcPlaceToTransition.allInstances()->forAll(p | TrgArc.allInstances()->exists(e | p.name = e.id))
+
+--OCL There must be Places in both models with the same location
+--SrcPlace.allInstances()->forAll(p | TrgPlace.allInstances()->exists(e | p.location = e.location))
+
+--OCL There must be Transitions in both models with the same location
+--SrcTransition.allInstances()->forAll(p | TrgTransition.allInstances()->exists(e | p.location = e.location))
+
+--OCL There must be SrcPlaceToTransition and Arc with the same location
+--SrcPlaceToTransition.allInstances()->forAll(p | TrgArc.allInstances()->exists(e | p.location = e.location))
+
+--OCL There must be SrcTransitionToPlace and Arc with the same location
+--SrcTransitionToPlace.allInstances()->forAll(p | TrgArc.allInstances()->exists(e | p.location = e.location))
+
+--OCL2. There must be the same number of Places in both models
+--SrcPlace.allInstances()->size() = TrgPlace.allInstances()->size()
+
+--OCL3. There must be the same number of Arcs in both models
+--SrcArc.allInstances()->size() = TrgArc.allInstances()->size()
+
+--OCL4. There must be the same number of Transitions in both models
+--SrcTransition.allInstances()->size() = TrgTransition.allInstances()->size()
+
+--OCL. Every TrgTransition must point a TrgName
+--TrgTransition.allInstances()->forAll(t | TrgName.allInstances()->exists(n | t.name = n))
+
+--OCL. Every created TrgName must contain only one labels (TrgLabel)
+--TrgName.allInstances()->forAll(n | n.labels->size() = 1)
+
+--OCL
+--SrcPetriNet.allInstances()->asSequence()->first().elements->size() = TrgNetElement.allInstances()->asSequence()->first().contents->size()

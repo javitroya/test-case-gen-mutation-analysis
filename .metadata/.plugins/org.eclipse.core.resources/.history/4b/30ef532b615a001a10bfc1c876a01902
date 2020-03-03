@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml:PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0" location="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta" id="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta">
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="pnml:Place" location="3JPOySct4iE5KkiGJqrn0qcRDlbeKQFJdzhJtSYrTC8FRwlnlVWNQqkaLPI0pV7f" id="OvCSwAIdODATd8Cb8pNiBR8pqvIWE0c3OMnhxVlYzTPe8Xzjnm3GZbDVyLd8">
+      <name>
+        <labels text="OvCSwAIdODATd8Cb8pNiBR8pqvIWE0c3OMnhxVlYzTPe8Xzjnm3GZbDVyLd8"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Place" location="xYBm0rPPZUhN7FeF19fF6s6GI4njeoD231sTtIna3glFhsDirZQC9eaLTFDgJhF8mCx" id="xa5HGOn45mP8hWwCyjvm5tJ9NyT1ZQmeZi6cfaoZPk1tvHOxa7mg27Fyf1tmAwz">
+      <name>
+        <labels text="xa5HGOn45mP8hWwCyjvm5tJ9NyT1ZQmeZi6cfaoZPk1tvHOxa7mg27Fyf1tmAwz"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Place" location="ADfwLIWJLlHIvYUS2MWIFbRrVWQlJAfBTDvmXyX1SKyfsef1mA9MzvLu22vECXmfMBi2p" id="BqBgfLQKLBCmq4fS0XRH8lUXbXpdS7M3j9v7OLzvnkb1V63SMSe0qloa5QLW">
+      <name>
+        <labels text="BqBgfLQKLBCmq4fS0XRH8lUXbXpdS7M3j9v7OLzvnkb1V63SMSe0qloa5QLW"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Place" location="JJO9g3trTKph5oWs85avWVm2zn90lwJVcm3WlrJgi2IrnFUQXG2bgPKX2Bn" id="vtPirBbLotaHgwEMGD5tM3NVHL0lL6Wt5vMIoBXxFfX4fWfhkY4FYRiprinq6MxtW">
+      <name>
+        <labels text="vtPirBbLotaHgwEMGD5tM3NVHL0lL6Wt5vMIoBXxFfX4fWfhkY4FYRiprinq6MxtW"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Place" location="h0aIEl7NLZytNdjsZCyBlWaYjvwsHaA3jmMVgE5pr216QotwlWpiux9li6lo2" id="UYvd85HH2hXi8rXY8rQSyWJWnLBdt4xLx5uF9FpZCTi5B1b6X575MAErn5WIYev99ZL">
+      <name>
+        <labels text="UYvd85HH2hXi8rXY8rQSyWJWnLBdt4xLx5uF9FpZCTi5B1b6X575MAErn5WIYev99ZL"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Transition" location="7QcG66fw9mHSAwPVNCCsjzfwQukVK72lXDGjYsypQ1686Fn270npOdazJrAAsHrog" id="OaGnKkVaE5MCvqgdcgxIbXOJzQLcFNObE0PzWxZ93p9DdM3xLCGYFZbJnbrrCwUSLrz27">
+      <name>
+        <labels text="OaGnKkVaE5MCvqgdcgxIbXOJzQLcFNObE0PzWxZ93p9DdM3xLCGYFZbJnbrrCwUSLrz27"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:Place" location="AHdTvspZMK12I85p0aN0ZQVUF6kfsP46qrtgJ9eYFYmac8FHyLCb0A5hDwnMvosYWcDp" id="DySBOmNxZrCC6Ot33IaBQNcuwoIvnNoMe3rIseoi3YmPjNoNpdlQlGN3eoCW1jG">
+      <name>
+        <labels text="DySBOmNxZrCC6Ot33IaBQNcuwoIvnNoMe3rIseoi3YmPjNoNpdlQlGN3eoCW1jG"/>
+      </name>
+    </contents>
+    <name location="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta">
+      <labels text="oUyx5ygxfoNjq3ocqCoaBivvcFAobaxmB8Gc54PQWgdC2geaELQZadVRJvJpgVFO45Qgo"/>
+    </name>
+  </nets>
+</pnml:PNMLDocument>

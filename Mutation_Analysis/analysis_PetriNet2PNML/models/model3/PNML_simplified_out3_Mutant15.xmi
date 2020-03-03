@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnml:PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0" location="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta" id="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta">
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="pnml:Place" location="7QcG66fw9mHSAwPVNCCsjzfwQukVK72lXDGjYsypQ1686Fn270npOdazJrAAsHrog" id="OaGnKkVaE5MCvqgdcgxIbXOJzQLcFNObE0PzWxZ93p9DdM3xLCGYFZbJnbrrCwUSLrz27">
+      <name>
+        <labels text="OaGnKkVaE5MCvqgdcgxIbXOJzQLcFNObE0PzWxZ93p9DdM3xLCGYFZbJnbrrCwUSLrz27"/>
+      </name>
+    </contents>
+    <name location="4jHOxZxwGh0MyFnr7dPkwtmMSsC1ihD0vYZghxRfASU0Ahzc0Vm1HplG9P36Ta">
+      <labels text="oUyx5ygxfoNjq3ocqCoaBivvcFAobaxmB8Gc54PQWgdC2geaELQZadVRJvJpgVFO45Qgo"/>
+    </name>
+  </nets>
+</pnml:PNMLDocument>

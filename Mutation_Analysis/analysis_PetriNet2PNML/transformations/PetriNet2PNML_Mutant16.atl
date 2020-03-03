@@ -1,0 +1,169 @@
+module PetriNet2PNML_Mutant16;
+create OUT : PNML, TM : TMM from IN : PetriNet;
+
+entrypoint rule createTrace()
+{
+	to
+		tr : TMM!Trace( )
+	
+	do {
+		thisModule.trace <- tr;
+	}	
+}
+
+
+-- The PNMLDocument rule generates a PNMLDocument  and the NetElement which corresponds to the input PetriNet element. 
+-- Name of the generated NetElement is copied from the one of the input PetriNet, by creating a PNML Name composed of a PNML Label which value is initialized by the PetriNet name.
+-- Its set of Contents corresponds to the union of the PetriNet Elements and Arcs.
+rule PNMLDocument {
+    from
+        e : PetriNet!PetriNet
+    to    
+        n : PNML!PNMLDocument
+        (
+            location <- e.location,
+            xmlns <- uri,
+            nets <- net            
+        ),
+        uri : PNML!URI
+        (
+            value <- 'http://www.informatik.hu-berlin.de/top/pnml/ptNetb'
+        ),
+        net : PNML!NetElement
+        (
+            name <- name,
+            location <- e.location,
+            id <- e.location,
+            type <- type_uri,
+            contents <- e.elements.union(e.arcs)
+        ),
+        name : PNML!Name
+        (
+            labels <- label,
+			location <- e.location
+        ),
+        label : PNML!Label
+        (
+            text <- e.name
+        ),
+        type_uri : PNML!URI
+        (
+            value <- 'http://www.informatik.hu-berlin.de/top/pntd/ptNetb'
+        ),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'PNMLDocument',
+			targetElements <- Sequence {n,uri,net,name,label,type_uri}
+		)
+		do {
+		-- trace information
+		--tl.refSetValue('sourceElements', Sequence {e});
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- The Place rule generates a Place corresponds to the input PetriNet Place element. 
+-- Name of the generated Place is copied from the one of the input Place, by creating a PNML Name composed of a PNML Label which value is initialized by the PetriNet Place name.
+rule Place {
+    from
+        e : PetriNet!Place
+    to
+        n : PNML!Place
+        (
+            name <- name,
+            id <- e.name,
+            location <- e.location            
+        ),
+        name : PNML!Name
+        (
+            --labels <- label  -- binding removed
+        ),
+        label : PNML!Label
+        (
+            text <- e.name
+        ),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Place',
+			targetElements <- Sequence {n,name,label}
+		)
+		
+	do {
+		-- trace information
+		--tl.refSetValue('sourceElements', Sequence {e});
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- The Transition rule generates a Transition corresponds to the input PetriNet Transition element. 
+-- Name of the generated Transition is copied from the one of the input Transition, by creating a PNML Name composed of a PNML Label which value is initialized by the PetriNet Transition name.
+rule Transition {
+    from
+        e : PetriNet!Transition
+    to
+        n : PNML!Transition
+        (
+            name <- name,
+            id <- e.name,
+            location <- e.location
+        ),
+        name : PNML!Name
+        (
+            labels <- label
+        ),
+        label : PNML!Label
+        (
+            text <- e.name
+        ),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Transition',
+			targetElements <- Sequence {n,name,label}
+		)
+		
+	do {
+		-- trace information
+		--tl.refSetValue('sourceElements', Sequence {e});
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}
+
+-- The Arc rule generates a Arc corresponds to the input PetriNet Arc element (TransitionToPlace and PlaceToTransition). 
+-- Name of the generated Arc is copied from the one of the input Arc, by creating a PNML Name composed of a PNML Label which value is initialized by the PetriNet Arc name.
+-- Its source and target references are also copied from the input Arc and correspond respectively to the from and to references.
+rule Arc {
+    from
+        e : PetriNet!Arc
+    to
+        n : PNML!Arc
+        (
+            name <- name,
+            location <- e.location,
+            id <- e.name,
+            source <- e."from",
+            target <- e."to" 
+        ),
+        name : PNML!Name
+        (
+            labels <- label
+        ),
+        label : PNML!Label
+        (
+            text <- e.name
+        ),
+		-- trace information
+		tl : TMM!TraceLink(
+			ruleName <- 'Arc_' + e.oclType().toString(), --We store the name of the rule like this because Arc (the input element) is an abstract class
+			targetElements <- Sequence {n,name,label}
+		)
+		
+	do {
+		-- trace information
+		--tl.refSetValue('sourceElements', Sequence {e});
+		tl.sourceElements <- Sequence{e};
+		thisModule.trace.traceLinks <- tl;
+	}
+}

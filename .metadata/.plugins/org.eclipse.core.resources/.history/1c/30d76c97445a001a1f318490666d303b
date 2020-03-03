@@ -1,0 +1,615 @@
+/**
+ */
+package jointPackage_PetriNet2PNML.util;
+
+import jointPackage_PetriNet2PNML.*;
+
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EPackage;
+
+import org.eclipse.emf.ecore.util.Switch;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Switch</b> for the model's inheritance hierarchy.
+ * It supports the call {@link #doSwitch(EObject) doSwitch(object)}
+ * to invoke the <code>caseXXX</code> method for each class of the model,
+ * starting with the actual class of the object
+ * and proceeding up the inheritance hierarchy
+ * until a non-null result is returned,
+ * which is the result of the switch.
+ * <!-- end-user-doc -->
+ * @see jointPackage_PetriNet2PNML.JointPackage_PetriNet2PNMLPackage
+ * @generated
+ */
+public class JointPackage_PetriNet2PNMLSwitch<T> extends Switch<T> {
+	/**
+	 * The cached model package
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected static JointPackage_PetriNet2PNMLPackage modelPackage;
+
+	/**
+	 * Creates an instance of the switch.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public JointPackage_PetriNet2PNMLSwitch() {
+		if (modelPackage == null) {
+			modelPackage = JointPackage_PetriNet2PNMLPackage.eINSTANCE;
+		}
+	}
+
+	/**
+	 * Checks whether this is a switch for the given package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param ePackage the package in question.
+	 * @return whether this is a switch for the given package.
+	 * @generated
+	 */
+	@Override
+	protected boolean isSwitchFor(EPackage ePackage) {
+		return ePackage == modelPackage;
+	}
+
+	/**
+	 * Calls <code>caseXXX</code> for each class of the model until one returns a non null result; it yields that result.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the first non-null result returned by a <code>caseXXX</code> call.
+	 * @generated
+	 */
+	@Override
+	protected T doSwitch(int classifierID, EObject theEObject) {
+		switch (classifierID) {
+			case JointPackage_PetriNet2PNMLPackage.JOINT_MM: {
+				JointMM jointMM = (JointMM)theEObject;
+				T result = caseJointMM(jointMM);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_LOCATED_ELEMENT: {
+				SrcLocatedElement srcLocatedElement = (SrcLocatedElement)theEObject;
+				T result = caseSrcLocatedElement(srcLocatedElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_NAMED_ELEMENT: {
+				SrcNamedElement srcNamedElement = (SrcNamedElement)theEObject;
+				T result = caseSrcNamedElement(srcNamedElement);
+				if (result == null) result = caseSrcLocatedElement(srcNamedElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_PETRI_NET: {
+				SrcPetriNet srcPetriNet = (SrcPetriNet)theEObject;
+				T result = caseSrcPetriNet(srcPetriNet);
+				if (result == null) result = caseSrcNamedElement(srcPetriNet);
+				if (result == null) result = caseSrcLocatedElement(srcPetriNet);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_ELEMENT: {
+				SrcElement srcElement = (SrcElement)theEObject;
+				T result = caseSrcElement(srcElement);
+				if (result == null) result = caseSrcNamedElement(srcElement);
+				if (result == null) result = caseSrcLocatedElement(srcElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_PLACE: {
+				SrcPlace srcPlace = (SrcPlace)theEObject;
+				T result = caseSrcPlace(srcPlace);
+				if (result == null) result = caseSrcElement(srcPlace);
+				if (result == null) result = caseSrcNamedElement(srcPlace);
+				if (result == null) result = caseSrcLocatedElement(srcPlace);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_TRANSITION: {
+				SrcTransition srcTransition = (SrcTransition)theEObject;
+				T result = caseSrcTransition(srcTransition);
+				if (result == null) result = caseSrcElement(srcTransition);
+				if (result == null) result = caseSrcNamedElement(srcTransition);
+				if (result == null) result = caseSrcLocatedElement(srcTransition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_ARC: {
+				SrcArc srcArc = (SrcArc)theEObject;
+				T result = caseSrcArc(srcArc);
+				if (result == null) result = caseSrcNamedElement(srcArc);
+				if (result == null) result = caseSrcLocatedElement(srcArc);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_PLACE_TO_TRANSITION: {
+				SrcPlaceToTransition srcPlaceToTransition = (SrcPlaceToTransition)theEObject;
+				T result = caseSrcPlaceToTransition(srcPlaceToTransition);
+				if (result == null) result = caseSrcArc(srcPlaceToTransition);
+				if (result == null) result = caseSrcNamedElement(srcPlaceToTransition);
+				if (result == null) result = caseSrcLocatedElement(srcPlaceToTransition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.SRC_TRANSITION_TO_PLACE: {
+				SrcTransitionToPlace srcTransitionToPlace = (SrcTransitionToPlace)theEObject;
+				T result = caseSrcTransitionToPlace(srcTransitionToPlace);
+				if (result == null) result = caseSrcArc(srcTransitionToPlace);
+				if (result == null) result = caseSrcNamedElement(srcTransitionToPlace);
+				if (result == null) result = caseSrcLocatedElement(srcTransitionToPlace);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_PNML_DOCUMENT: {
+				TrgPNMLDocument trgPNMLDocument = (TrgPNMLDocument)theEObject;
+				T result = caseTrgPNMLDocument(trgPNMLDocument);
+				if (result == null) result = caseTrgLocatedElement(trgPNMLDocument);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_LOCATED_ELEMENT: {
+				TrgLocatedElement trgLocatedElement = (TrgLocatedElement)theEObject;
+				T result = caseTrgLocatedElement(trgLocatedElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_IDED_ELEMENT: {
+				TrgIdedElement trgIdedElement = (TrgIdedElement)theEObject;
+				T result = caseTrgIdedElement(trgIdedElement);
+				if (result == null) result = caseTrgLocatedElement(trgIdedElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_URI: {
+				TrgURI trgURI = (TrgURI)theEObject;
+				T result = caseTrgURI(trgURI);
+				if (result == null) result = caseTrgLocatedElement(trgURI);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_NET_ELEMENT: {
+				TrgNetElement trgNetElement = (TrgNetElement)theEObject;
+				T result = caseTrgNetElement(trgNetElement);
+				if (result == null) result = caseTrgIdedElement(trgNetElement);
+				if (result == null) result = caseTrgLocatedElement(trgNetElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_NET_CONTENT: {
+				TrgNetContent trgNetContent = (TrgNetContent)theEObject;
+				T result = caseTrgNetContent(trgNetContent);
+				if (result == null) result = caseTrgLocatedElement(trgNetContent);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_LABELED_ELEMENT: {
+				TrgLabeledElement trgLabeledElement = (TrgLabeledElement)theEObject;
+				T result = caseTrgLabeledElement(trgLabeledElement);
+				if (result == null) result = caseTrgLocatedElement(trgLabeledElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_LABEL: {
+				TrgLabel trgLabel = (TrgLabel)theEObject;
+				T result = caseTrgLabel(trgLabel);
+				if (result == null) result = caseTrgLocatedElement(trgLabel);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_NAME: {
+				TrgName trgName = (TrgName)theEObject;
+				T result = caseTrgName(trgName);
+				if (result == null) result = caseTrgLabeledElement(trgName);
+				if (result == null) result = caseTrgLocatedElement(trgName);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_NET_CONTENT_ELEMENT: {
+				TrgNetContentElement trgNetContentElement = (TrgNetContentElement)theEObject;
+				T result = caseTrgNetContentElement(trgNetContentElement);
+				if (result == null) result = caseTrgNetContent(trgNetContentElement);
+				if (result == null) result = caseTrgIdedElement(trgNetContentElement);
+				if (result == null) result = caseTrgLocatedElement(trgNetContentElement);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_ARC: {
+				TrgArc trgArc = (TrgArc)theEObject;
+				T result = caseTrgArc(trgArc);
+				if (result == null) result = caseTrgNetContent(trgArc);
+				if (result == null) result = caseTrgIdedElement(trgArc);
+				if (result == null) result = caseTrgLocatedElement(trgArc);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_PLACE: {
+				TrgPlace trgPlace = (TrgPlace)theEObject;
+				T result = caseTrgPlace(trgPlace);
+				if (result == null) result = caseTrgNetContentElement(trgPlace);
+				if (result == null) result = caseTrgNetContent(trgPlace);
+				if (result == null) result = caseTrgIdedElement(trgPlace);
+				if (result == null) result = caseTrgLocatedElement(trgPlace);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case JointPackage_PetriNet2PNMLPackage.TRG_TRANSITION: {
+				TrgTransition trgTransition = (TrgTransition)theEObject;
+				T result = caseTrgTransition(trgTransition);
+				if (result == null) result = caseTrgNetContentElement(trgTransition);
+				if (result == null) result = caseTrgNetContent(trgTransition);
+				if (result == null) result = caseTrgIdedElement(trgTransition);
+				if (result == null) result = caseTrgLocatedElement(trgTransition);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			default: return defaultCase(theEObject);
+		}
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Joint MM</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Joint MM</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseJointMM(JointMM object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Located Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Located Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcLocatedElement(SrcLocatedElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Named Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Named Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcNamedElement(SrcNamedElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Petri Net</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Petri Net</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcPetriNet(SrcPetriNet object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcElement(SrcElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Place</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Place</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcPlace(SrcPlace object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Transition</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Transition</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcTransition(SrcTransition object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Arc</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Arc</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcArc(SrcArc object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Place To Transition</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Place To Transition</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcPlaceToTransition(SrcPlaceToTransition object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Src Transition To Place</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Src Transition To Place</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSrcTransitionToPlace(SrcTransitionToPlace object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg PNML Document</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg PNML Document</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgPNMLDocument(TrgPNMLDocument object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Located Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Located Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgLocatedElement(TrgLocatedElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Ided Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Ided Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgIdedElement(TrgIdedElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg URI</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg URI</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgURI(TrgURI object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Net Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Net Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgNetElement(TrgNetElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Net Content</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Net Content</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgNetContent(TrgNetContent object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Labeled Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Labeled Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgLabeledElement(TrgLabeledElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Label</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Label</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgLabel(TrgLabel object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Name</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Name</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgName(TrgName object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Net Content Element</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Net Content Element</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgNetContentElement(TrgNetContentElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Arc</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Arc</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgArc(TrgArc object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Place</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Place</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgPlace(TrgPlace object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Trg Transition</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Trg Transition</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTrgTransition(TrgTransition object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>EObject</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch, but this is the last case anyway.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>EObject</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject)
+	 * @generated
+	 */
+	@Override
+	public T defaultCase(EObject object) {
+		return null;
+	}
+
+} //JointPackage_PetriNet2PNMLSwitch

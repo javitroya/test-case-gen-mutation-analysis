@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0">
+  <pnml:fuTM_PNMLDocument location="ic9l">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="ic9l" id="ic9l">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="7ci4" id="87kh">
+        <name>
+          <labels text="7ci4"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Transition" location="aqvg" id="smnr">
+        <name>
+          <labels text="aqvg"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="nt1o" id="ax2c">
+        <name>
+          <labels text="nt1o"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="wgag" id="fom3">
+        <name>
+          <labels text="wgag"/>
+        </name>
+      </contents>
+      <name location="ic9l">
+        <labels text="7dss"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+  <pnml:fuTM_PNMLDocument location="h0pm">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="h0pm" id="h0pm">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="vui9" id="s6mz">
+        <name>
+          <labels text="vui9"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Transition" location="2eqi" id="dww9">
+        <name>
+          <labels text="2eqi"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="ouoz" id="ydry">
+        <name>
+          <labels text="ouoz"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="x0yo" id="c63w">
+        <name>
+          <labels text="x0yo"/>
+        </name>
+      </contents>
+      <name location="h0pm">
+        <labels text="wyy5"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+</xmi:XMI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ER:ERModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ER="http://er" name="0e5iOOlmyRnu51gTMLJxmktrMwc8i9iWoC0PTSNAYIqD7KlB0HZM3nWC1FfIOk">
+  <entities name="rt8NJNqUv3FQPazDY6JoTkbi01aTenqIkTtD0SiQnGXRuU0U8wK1mZzDxdV39JEMTx2">
+    <features xsi:type="ER:Attribute" name="A9K0CDvS8Offdc7ETJS37EAW2nEzG6MuPaoh1aOqASy49riuuWIYI4hdbTEF9jXBO" type="kj3fMcEUCdVMtnxFfTG5k23uHXizBHDjkT4rQ5DxPG54OLPr9uH99eCufrguj4fttd"/>
+    <features xsi:type="ER:Attribute" name="XpEm81BPoFfJGwuXWFeUZDgDaB0ifMtf3eeU0bLneMk9MHRlUwdM69Ubr8RsgZUu7jdy" type="C4kIw3buKdBTPmYSi26loyCa7HHvJSrXbWoy6l8wj4mzGSIa4uN3GTeB3OPnOMDe4b8z"/>
+    <features xsi:type="ER:Attribute" name="cV0YfpMraJETX5RsFWkqjIDeQjIrzzDtuoHHbAjisOkFb4HZVus2p3jFSVwV" type="r9jsTWaGJ0akQRSO3ucZemY42ECkTEnXXTQI72yjT6lMvRLgHbVoiXsaXCFKp"/>
+    <features xsi:type="ER:WeakReference" name="zxSx0rACIghi60gtoA5lOEuc1cFa36MceoiwNOQ4t5U9BbPQXQl2K6Ly3oh94gQNhGmnR2" type="//@entities.0"/>
+    <features xsi:type="ER:StrongReference" name="kEJfGTmv75PVIIhlvuAOl4OCYEFzJfgtkLzx0WgEusDotufb9tQonO4Rqo2Y" type="//@entities.2"/>
+    <features xsi:type="ER:Attribute" name="Vy5N8m45LrY9UkNfSWfT3GKp6LMf59PcW9W9WyK9mQI20Z2lzFVGah6xafTPeFwF5DGv" type="TwVRvMnMrDJfmSPvV5VRMoQc3idlxFwvq1W4ifkXyq4dpTfERwJnk5OJLDhrYgHvG73olY"/>
+    <features xsi:type="ER:Attribute" name="iZ1f0PXydOxMIxeGwncyApsIA6V401QoyDVpUIcNyCukSsB6EO6Fbxf8aWiwR2d2" type="0CJdrTIThEGP5pImL1nteecErROULUaxJBew3zyaXpSs85LXRcjklyvwCf"/>
+    <features xsi:type="ER:WeakReference" name="9CzRzTOAQ6nhNcWlhhJshAPjEiBcdsNoTF54W84JcinZ1kJAwqamV8u0RpX6TU5" type="//@entities.1"/>
+    <features xsi:type="ER:Attribute" name="LLxDNrO00JTDmxuBVYMiYCrCTIowcNUjCnQox8UVDDqXRpoJ9gxWqZ1iXbX3N" type="rNcupuHTaxaNfm8bHSRtYi0WTg0IkKNDKKVbpRoz9oSuQMV2GcSVHeplnw"/>
+  </entities>
+  <entities name="WLAGtFoNTX7Z1PT2yY7zrsCMjhZ7jFUMeubKC3FEY6iTqGDeFvgwyvEgWpRAEw0o">
+    <features xsi:type="ER:WeakReference" name="yDBwjIVxeb5888VUvk8MleyU70LqhQwPSexdNItJctm2TiQLplD8j83ysTif70CFiKkFqY" type="//@entities.2"/>
+    <features xsi:type="ER:Attribute" name="sRhFlWO6FbW8qt4Xo6umA7jR7Tlb3m3MOHTvxMN42Bnwy2ciBPiiBO7p3vA5uIYS" type="HTQurgQfYbEitMqKCikK30SZSI8MI8seVHxE9PlItwcPu9GokrJJbHnhyeWPIJ"/>
+    <features xsi:type="ER:Attribute" name="eZBIlZThsjkyRXK1YcXS5lOrWBLHZzKcKW9xWjxFYa8uLWcv9U7RIzLWeDB1iJdYY" type="AxFVUYHOFa4KfvJg5YDPA1aLoKfoMvoK49nHBmKl4lhx7XsLSHmE2uPS3jD86"/>
+    <features xsi:type="ER:StrongReference" name="haEScsLeD5A6j6uuerMJ5r4hRsi45GwlGF0ou27xhJpHWKdP34DDuDVcBrkKstFGzHqv" type="//@entities.2"/>
+    <features xsi:type="ER:Attribute" name="aWge9D7ieUeXYVeS2fIWwGOAgXD6r5Wx2I47142mydVfCZlMmQWwKZtrZSMDsx8" type="WI2WOa11OtsAbdFW8xLGtgbH0B0Norikac0EmbiqNQac5KgpWIuVJpeDFrDhm6Y"/>
+    <features xsi:type="ER:Attribute" name="lpd0KqZMmdNQhLQXEgqaWzpuzlgRl10vqus8kHROr7tYNWofH1CyZKSGNGa" type="zB3r3jGr60by8T0742ReSo3JqNcr6at36K0qZlpKt7cwG3Xcj6mv1xjN59QiKIGGz9RukH"/>
+    <features xsi:type="ER:Attribute" name="A1vIfpIjF99rmwEmUUQqZE4eHjfXxvf5PZjgKfUnsm37au32qqkdpi5zNjKwRe3U9t" type="enQQba4K4mOW2gW51CxA3t27qqnxgmwlVWTacRVAA2YbKWRKP4NlEqoYqlKd2A"/>
+    <features xsi:type="ER:Attribute" name="NkHgVzVBlkgF2RGvoz0x6XDRCrYoNsgALJeWx72EVjl5e2FvOrjPX98RcE0d69eq" type="OlHEhmXDbA35gzPz2Kj8hKoWSlnWWTj1cmaGsKUzHPWMUMxr9LabjakmuqR0Gf14PD"/>
+    <features xsi:type="ER:StrongReference" name="EVtNm8xsi95JjkE82Hd4GCFRt2hAomQKbkWFvgKEiEWj9lX0uq09ULYXRGETuJFwL21N4" type="//@entities.2"/>
+  </entities>
+  <entities name="gjfVLyhJqbcWLxzVoV9cdDxEEzWU7MtMVpjnYAE0AIzft4CN4yNso3PSQ2KMgin5yz7E"/>
+</ER:ERModel>

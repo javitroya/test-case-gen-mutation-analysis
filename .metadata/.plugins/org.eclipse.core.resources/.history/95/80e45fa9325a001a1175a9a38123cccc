@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petriNet:Root
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:petriNet="http://petrinet/1.0"
+    xsi:schemaLocation="http://petrinet/1.0 /MetTesting_ModTrans4Wiki/evaluation_PetriNet2PNML/PetriNet.ecore">
+  <petrinets
+      location="l4rk"
+      name="hd2g">
+    <elements
+        xsi:type="petriNet:Place"
+        location="6vlf"
+        name="6ney"/>
+  </petrinets>
+  <petrinets
+      location="0gt8"
+      name="og5t">
+    <elements
+        xsi:type="petriNet:Place"
+        location="5kz2"
+        name="nwn1"/>
+  </petrinets>
+</petriNet:Root>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pnml="http://html/1.0">
+  <pnml:TM_PNMLDocument location="location">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="location" id="location">
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="pnml:TM_Place" location="location" id="name">
+      <name>
+        <labels text="name"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Place" location="zewt" id="m1xk">
+      <name>
+        <labels text="m1xk"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Place" location="6jj8" id="1t9g">
+      <name>
+        <labels text="1t9g"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Place" location="oh7p" id="y6x8">
+      <name>
+        <labels text="y6x8"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Transition" location="location" id="name">
+      <name>
+        <labels text="name"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Transition" location="15i8" id="kv63">
+      <name>
+        <labels text="kv63"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Transition" location="yl1o" id="qjkr">
+      <name>
+        <labels text="qjkr"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Transition" location="ozna" id="flm1">
+      <name>
+        <labels text="flm1"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="location" id="name">
+      <name>
+        <labels text="name"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="r8pr" id="i17w">
+      <name>
+        <labels text="i17w"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="ekpa" id="9rdh">
+      <name>
+        <labels text="9rdh"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="xjjp" id="g3d6">
+      <name>
+        <labels text="g3d6"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="location" id="name">
+      <name>
+        <labels text="name"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="gmyv" id="nj1x">
+      <name>
+        <labels text="nj1x"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="ng72" id="cze8">
+      <name>
+        <labels text="cze8"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:TM_Arc" location="ngue" id="65uh">
+      <name>
+        <labels text="65uh"/>
+      </name>
+    </contents>
+    <name location="location">
+      <labels text="name"/>
+    </name>
+  </nets>
+</pnml:TM_PNMLDocument>
+</xmi:XMI>

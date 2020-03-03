@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pnml="http://html/1.0">
+  <pnml:TM_PNMLDocument location="value">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="value" id="value">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:TM_Place" location="z5c1" id="lkx9">
+        <name>
+          <labels text="lkx9"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Place" location="value" id="value">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Transition" location="value" id="value">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Place" location="value" id="Added_Place"/>
+      <contents xsi:type="pnml:TM_Transition" location="value" id="Added_Transition"/>
+      <contents xsi:type="pnml:TM_Arc" source="/0/@nets.0/@contents.3" target="/0/@nets.0/@contents.4"/>
+      <contents xsi:type="pnml:TM_Arc" location="value" id="value" source="/0/@nets.0/@contents.1" target="/0/@nets.0/@contents.2">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Arc" location="value" id="value" source="/0/@nets.0/@contents.2" target="/0/@nets.0/@contents.1">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <name location="value">
+        <labels text="value"/>
+      </name>
+    </nets>
+  </pnml:TM_PNMLDocument>
+  <pnml:TM_PNMLDocument location="j8yz">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="j8yz" id="j8yz">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:TM_Place" location="zfwd" id="6cej">
+        <name>
+          <labels text="6cej"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Place" location="ki36" id="e35k">
+        <name>
+          <labels text="e35k"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Transition" location="omyb" id="hh4i">
+        <name>
+          <labels text="hh4i"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Place" location="j8yz" id="Added_Place"/>
+      <contents xsi:type="pnml:TM_Transition" location="j8yz" id="Added_Transition"/>
+      <contents xsi:type="pnml:TM_Arc" source="/1/@nets.0/@contents.3" target="/1/@nets.0/@contents.4"/>
+      <contents xsi:type="pnml:TM_Arc" location="za0r" id="3f4m" source="/1/@nets.0/@contents.1" target="/1/@nets.0/@contents.2">
+        <name>
+          <labels text="3f4m"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Arc" location="ua48" id="zp34" source="/1/@nets.0/@contents.2" target="/1/@nets.0/@contents.1">
+        <name>
+          <labels text="zp34"/>
+        </name>
+      </contents>
+      <name location="j8yz">
+        <labels text="hqkr"/>
+      </name>
+    </nets>
+  </pnml:TM_PNMLDocument>
+  <pnml:TM_PNMLDocument location="wb0z">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="wb0z" id="wb0z">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:TM_Place" location="k4wf" id="v8ys">
+        <name>
+          <labels text="v8ys"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Place" location="5k7j" id="ndd3">
+        <name>
+          <labels text="ndd3"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:TM_Place" location="wb0z" id="Added_Place"/>
+      <contents xsi:type="pnml:TM_Transition" location="wb0z" id="Added_Transition"/>
+      <contents xsi:type="pnml:TM_Arc" source="/2/@nets.0/@contents.2" target="/2/@nets.0/@contents.3"/>
+      <name location="wb0z">
+        <labels text="llx2"/>
+      </name>
+    </nets>
+  </pnml:TM_PNMLDocument>
+  <pnml:fuTM_PNMLDocument location="value">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="value" id="value">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="z5c1" id="lkx9">
+        <name>
+          <labels text="lkx9"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Place" location="value" id="value">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Transition" location="value" id="value">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Place" location="value" id="Added_Place"/>
+      <contents xsi:type="pnml:fuTM_Transition" location="value" id="Added_Transition"/>
+      <contents xsi:type="pnml:fuTM_Arc" source="//@pnml:fuTM_PNMLDocument/0/@nets.0/@contents.3" target="//@pnml:fuTM_PNMLDocument/0/@nets.0/@contents.4"/>
+      <contents xsi:type="pnml:fuTM_Arc" location="value" id="value" source="//@pnml:fuTM_PNMLDocument/0/@nets.0/@contents.1" target="//@pnml:fuTM_PNMLDocument/0/@nets.0/@contents.2">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="value" id="value" source="//@pnml:fuTM_PNMLDocument/0/@nets.0/@contents.2" target="//@pnml:fuTM_PNMLDocument/0/@nets.0/@contents.1">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="value" id="value">
+        <name>
+          <labels text="value"/>
+        </name>
+      </contents>
+      <name location="value">
+        <labels text="value"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+  <pnml:fuTM_PNMLDocument location="j8yz">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="j8yz" id="j8yz">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="zfwd" id="6cej">
+        <name>
+          <labels text="6cej"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Place" location="ki36" id="e35k">
+        <name>
+          <labels text="e35k"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Transition" location="omyb" id="hh4i">
+        <name>
+          <labels text="hh4i"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Place" location="j8yz" id="Added_Place"/>
+      <contents xsi:type="pnml:fuTM_Transition" location="j8yz" id="Added_Transition"/>
+      <contents xsi:type="pnml:fuTM_Arc" source="//@pnml:fuTM_PNMLDocument/1/@nets.0/@contents.3" target="//@pnml:fuTM_PNMLDocument/1/@nets.0/@contents.4"/>
+      <contents xsi:type="pnml:fuTM_Arc" location="za0r" id="3f4m" source="//@pnml:fuTM_PNMLDocument/1/@nets.0/@contents.1" target="//@pnml:fuTM_PNMLDocument/1/@nets.0/@contents.2">
+        <name>
+          <labels text="3f4m"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="ua48" id="zp34" source="//@pnml:fuTM_PNMLDocument/1/@nets.0/@contents.2" target="//@pnml:fuTM_PNMLDocument/1/@nets.0/@contents.1">
+        <name>
+          <labels text="zp34"/>
+        </name>
+      </contents>
+      <name location="j8yz">
+        <labels text="hqkr"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+  <pnml:fuTM_PNMLDocument location="wb0z">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="wb0z" id="wb0z">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="k4wf" id="v8ys">
+        <name>
+          <labels text="v8ys"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Place" location="5k7j" id="ndd3">
+        <name>
+          <labels text="ndd3"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Place" location="wb0z" id="Added_Place"/>
+      <contents xsi:type="pnml:fuTM_Transition" location="wb0z" id="Added_Transition"/>
+      <contents xsi:type="pnml:fuTM_Arc" source="//@pnml:fuTM_PNMLDocument/2/@nets.0/@contents.2" target="//@pnml:fuTM_PNMLDocument/2/@nets.0/@contents.3"/>
+      <name location="wb0z">
+        <labels text="llx2"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+</xmi:XMI>

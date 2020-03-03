@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/MetTesting_ModelTrans_Evaluation/src" modelPluginID="MetTesting_ModelTrans_Evaluation"
+    modelName="PNMLJoin" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>PNMLJoin.ecore</foreignModel>
+  <genPackages prefix="Pnml" disposableProviderFactory="true" ecorePackage="PNMLJoin.ecore#/">
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//TM_LocatedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//TM_LocatedElement/location"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//TM_IdedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//TM_IdedElement/id"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_URI">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//TM_URI/value"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_PNMLDocument">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_PNMLDocument/xmlns"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_PNMLDocument/nets"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_NetElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_NetElement/type"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_NetElement/document"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_NetElement/contents"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_NetElement/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//TM_NetContent">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_NetContent/net"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_NetContent/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//TM_LabeledElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_LabeledElement/labels"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_Label">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//TM_Label/text"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_Label/labeledElement"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_Name">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_Name/net"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_Name/netContent"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//TM_NetContentElement"/>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_Arc">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_Arc/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//TM_Arc/target"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_Place"/>
+    <genClasses ecoreClass="PNMLJoin.ecore#//TM_Transition"/>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//fuTM_LocatedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//fuTM_LocatedElement/location"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//fuTM_IdedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//fuTM_IdedElement/id"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_URI">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//fuTM_URI/value"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_PNMLDocument">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_PNMLDocument/xmlns"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_PNMLDocument/nets"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_NetElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_NetElement/type"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_NetElement/document"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_NetElement/contents"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_NetElement/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//fuTM_NetContent">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_NetContent/net"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_NetContent/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//fuTM_LabeledElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_LabeledElement/labels"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_Label">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PNMLJoin.ecore#//fuTM_Label/text"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_Label/labeledElement"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_Name">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_Name/net"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_Name/netContent"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="PNMLJoin.ecore#//fuTM_NetContentElement"/>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_Arc">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_Arc/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference PNMLJoin.ecore#//fuTM_Arc/target"/>
+    </genClasses>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_Place"/>
+    <genClasses ecoreClass="PNMLJoin.ecore#//fuTM_Transition"/>
+  </genPackages>
+</genmodel:GenModel>

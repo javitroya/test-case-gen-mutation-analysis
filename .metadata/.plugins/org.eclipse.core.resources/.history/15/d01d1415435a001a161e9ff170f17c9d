@@ -1,0 +1,36 @@
+/**
+ */
+package jointPackage.impl;
+
+import jointPackage.JointPackagePackage;
+import jointPackage.TrgTransition;
+import org.eclipse.emf.ecore.EClass;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Trg Transition</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * @generated
+ */
+public class TrgTransitionImpl extends TrgNetContentElementImpl implements TrgTransition {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TrgTransitionImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return JointPackagePackage.Literals.TRG_TRANSITION;
+	}
+
+} //TrgTransitionImpl

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fsm="http://fsm/1.0">
+  <fsm:StateMachine name="Mutated name">
+    <states xsi:type="fsm:RegularState" name="Mutated State"/>
+    <states xsi:type="fsm:RegularState" name="Mutated State"/>
+    <states xsi:type="fsm:RegularState" name="Mutated State"/>
+    <states xsi:type="fsm:RegularState" name="Mutated State"/>
+    <states xsi:type="fsm:RegularState" name="bsb31pE0FCZSPknRLAA907LHf7RhaOhTb2TcYCL0DyE62wzziRIvA0hNukz8YQHxVY"/>
+    <states xsi:type="fsm:RegularState" name="wm8Mu3ycDsYIHHTxQyie1gIRjLBvdAQTgwOEvUAg84esrlxcFEiSNFIbUorxPyTCDIdpz"/>
+  </fsm:StateMachine>
+  <fsm:StateMachine name="Mutated name">
+    <states xsi:type="fsm:RegularState" name="Mutated State"/>
+    <states xsi:type="fsm:RegularState" name="4f3m8S9AG0BYi5ejSUhkGUgjdxHPNKR18rg9iKz3lYOrcuRWFaJ6eCnM2BW4JZP"/>
+    <states xsi:type="fsm:RegularState" name="AKmRPN4ARiSnkpIZbSW3Bx6RIAx8MImKJuNXnRnGGVkpH6GU9ICu2zF6m9X"/>
+  </fsm:StateMachine>
+  <fsm:StateMachine name="Mutated name"/>
+  <fsm:StateMachine name="Mutated name"/>
+  <fsm:StateMachine name="Mutated name"/>
+  <fsm:StateMachine name="Mutated name"/>
+  <fsm:StateMachine name="Mutated name"/>
+</xmi:XMI>

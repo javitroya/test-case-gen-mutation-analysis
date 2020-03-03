@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pnml:fuTM_PNMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0" location="location">
+  <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+  <nets location="location" id="location">
+    <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+    <contents xsi:type="pnml:fuTM_Place" location="4rqc" id="yu7g">
+      <name>
+        <labels text="yu7g"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Place" location="mx7h" id="vv1g">
+      <name>
+        <labels text="vv1g"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Place" location="z971" id="c50c">
+      <name>
+        <labels text="c50c"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="location" id="name">
+      <name>
+        <labels text="name"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="1ryh" id="558f">
+      <name>
+        <labels text="558f"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Transition" location="tqxm" id="zj2w">
+      <name>
+        <labels text="zj2w"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="location" id="name" source="//@nets.0/@contents.5" target="//@nets.0/@contents.0">
+      <name>
+        <labels text="name"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="g1pb" id="0das" source="//@nets.0/@contents.3" target="//@nets.0/@contents.1">
+      <name>
+        <labels text="0das"/>
+      </name>
+    </contents>
+    <contents xsi:type="pnml:fuTM_Arc" location="cakb" id="gw0p" source="//@nets.0/@contents.4" target="//@nets.0/@contents.2">
+      <name>
+        <labels text="gw0p"/>
+      </name>
+    </contents>
+    <name location="location">
+      <labels text="name"/>
+    </name>
+  </nets>
+</pnml:fuTM_PNMLDocument>

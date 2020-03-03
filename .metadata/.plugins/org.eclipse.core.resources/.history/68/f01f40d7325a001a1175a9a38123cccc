@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pnml="http://html/1.0">
+  <pnml:fuTM_PNMLDocument location="location">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="location" id="location">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="location" id="name">
+        <name>
+          <labels text="name"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Transition" location="location" id="name">
+        <name>
+          <labels text="name"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="location_modified" id="name">
+        <name>
+          <labels text="name"/>
+        </name>
+      </contents>
+      <name location="location">
+        <labels text="name"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+  <pnml:fuTM_PNMLDocument location="xkmr">
+    <xmlns value="http://www.informatik.hu-berlin.de/top/pnml/ptNetb"/>
+    <nets location="xkmr" id="xkmr">
+      <type value="http://www.informatik.hu-berlin.de/top/pntd/ptNetb"/>
+      <contents xsi:type="pnml:fuTM_Place" location="wgdp" id="31i1">
+        <name>
+          <labels text="31i1"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Transition" location="cluh" id="hkax">
+        <name>
+          <labels text="hkax"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="qvm5_modified" id="ist7">
+        <name>
+          <labels text="ist7"/>
+        </name>
+      </contents>
+      <contents xsi:type="pnml:fuTM_Arc" location="ngfq_modified" id="su3o">
+        <name>
+          <labels text="su3o"/>
+        </name>
+      </contents>
+      <name location="xkmr">
+        <labels text="noly"/>
+      </name>
+    </nets>
+  </pnml:fuTM_PNMLDocument>
+</xmi:XMI>

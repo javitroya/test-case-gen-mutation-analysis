@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ER:ERModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ER="http://er" name="0e5iOOlmyRnu51gTMLJxmktrMwc8i9iWoC0PTSNAYIqD7KlB0HZM3nWC1FfIOk">
+  <entities name="new name for the class">
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="kj3fMcEUCdVMtnxFfTG5k23uHXizBHDjkT4rQ5DxPG54OLPr9uH99eCufrguj4fttd"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="C4kIw3buKdBTPmYSi26loyCa7HHvJSrXbWoy6l8wj4mzGSIa4uN3GTeB3OPnOMDe4b8z"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="r9jsTWaGJ0akQRSO3ucZemY42ECkTEnXXTQI72yjT6lMvRLgHbVoiXsaXCFKp"/>
+    <features xsi:type="ER:StrongReference" name="new name for the feature" type="//@entities.0"/>
+    <features xsi:type="ER:WeakReference" name="new name for the feature" type="//@entities.2"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="TwVRvMnMrDJfmSPvV5VRMoQc3idlxFwvq1W4ifkXyq4dpTfERwJnk5OJLDhrYgHvG73olY"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="0CJdrTIThEGP5pImL1nteecErROULUaxJBew3zyaXpSs85LXRcjklyvwCf"/>
+    <features xsi:type="ER:StrongReference" name="new name for the feature" type="//@entities.1"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="rNcupuHTaxaNfm8bHSRtYi0WTg0IkKNDKKVbpRoz9oSuQMV2GcSVHeplnw"/>
+  </entities>
+  <entities name="new name for the class">
+    <features xsi:type="ER:StrongReference" name="new name for the feature" type="//@entities.2"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="HTQurgQfYbEitMqKCikK30SZSI8MI8seVHxE9PlItwcPu9GokrJJbHnhyeWPIJ"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="AxFVUYHOFa4KfvJg5YDPA1aLoKfoMvoK49nHBmKl4lhx7XsLSHmE2uPS3jD86"/>
+    <features xsi:type="ER:WeakReference" name="new name for the feature" type="//@entities.2"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="WI2WOa11OtsAbdFW8xLGtgbH0B0Norikac0EmbiqNQac5KgpWIuVJpeDFrDhm6Y"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="zB3r3jGr60by8T0742ReSo3JqNcr6at36K0qZlpKt7cwG3Xcj6mv1xjN59QiKIGGz9RukH"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="enQQba4K4mOW2gW51CxA3t27qqnxgmwlVWTacRVAA2YbKWRKP4NlEqoYqlKd2A"/>
+    <features xsi:type="ER:Attribute" name="new name for the feature" type="OlHEhmXDbA35gzPz2Kj8hKoWSlnWWTj1cmaGsKUzHPWMUMxr9LabjakmuqR0Gf14PD"/>
+    <features xsi:type="ER:WeakReference" name="new name for the feature" type="//@entities.2"/>
+  </entities>
+  <entities name="new name for the class"/>
+</ER:ERModel>

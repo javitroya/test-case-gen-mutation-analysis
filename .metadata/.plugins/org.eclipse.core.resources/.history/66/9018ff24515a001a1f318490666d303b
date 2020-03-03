@@ -1,0 +1,4 @@
+--OCL1. It checks that for every PetriNet, there must be created an PNMLDocument with the same location
+SrcPetriNet.allInstances()->forAll(p | TrgPNMLDocument.allInstances()->exists(e | p.location = e.location))
+
+--I need to write the rest

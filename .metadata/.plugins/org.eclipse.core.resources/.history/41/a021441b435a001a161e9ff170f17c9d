@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated JointMM_PetriNet2PNML -->
+      <package
+            uri="http://jointPackage/1.0"
+            class="jointPackage.JointPackagePackage"
+            genModel="analysis_PetriNet2PNML/JointMM_PetriNet2PNML.genmodel"/>
+   </extension>
+
+</plugin>

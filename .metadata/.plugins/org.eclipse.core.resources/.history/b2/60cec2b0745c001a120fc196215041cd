@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ER:ERModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ER="http://er">
+  <entities>
+    <features xsi:type="ER:Attribute" type="mdnjLU53GUUsY149ykVhMJv4yKPAf6cmwzqBA1PbgegwqvpVCPfcVFWxwb"/>
+    <features xsi:type="ER:WeakReference" type="//@entities.0"/>
+    <features xsi:type="ER:StrongReference" type="//@entities.0"/>
+    <features xsi:type="ER:Attribute" type="dJnLtwOklTnU7E9WKd3qeBASS9BFenXNtutqzCkL23UNpZ8JAV9enRYmGP0FEGhF"/>
+    <features xsi:type="ER:Attribute" type="Kaij0Qrp6wlOJewJH0fs2MPoo6MFB7d3sYCsjESmCyuCGmySWJCsG4fc6IOiM9"/>
+    <features xsi:type="ER:Attribute" type="pvNo155twiWo1fUYQ1sb9vFeHESzBg74sT0gXiLenIslhzolATpKFPRMKo2HlB4NkS34T"/>
+    <features xsi:type="ER:Attribute" type="DjQRTXfuoECnguOxzhfDX956vXeXUsex1IT1nJ1UA32t5f3Yefixpo1CQM3huYqP"/>
+    <features xsi:type="ER:Attribute" type="F0ZTgi4LinqvGQKUY3N2u1PyGC8saP9wMe8jaoJPcrIinaz9CkUqCA9NWkweKgu"/>
+    <features xsi:type="ER:StrongReference" type="//@entities.1"/>
+  </entities>
+  <entities/>
+</ER:ERModel>

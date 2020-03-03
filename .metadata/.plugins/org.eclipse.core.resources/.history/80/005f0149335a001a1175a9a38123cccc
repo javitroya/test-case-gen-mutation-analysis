@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="pnml" nsURI="http://html/1.0" nsPrefix="pnml">
+  <eClassifiers xsi:type="ecore:EClass" name="TM_LocatedElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_IdedElement" abstract="true" eSuperTypes="#//TM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_URI" eSuperTypes="#//TM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_PNMLDocument" eSuperTypes="#//TM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="xmlns" lowerBound="1" eType="#//TM_URI"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nets" ordered="false" lowerBound="1"
+        upperBound="-1" eType="#//TM_NetElement" containment="true" eOpposite="#//TM_NetElement/document"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_NetElement" eSuperTypes="#//TM_IdedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//TM_URI"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="document" lowerBound="1"
+        eType="#//TM_PNMLDocument" eOpposite="#//TM_PNMLDocument/nets"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contents" ordered="false"
+        upperBound="-1" eType="#//TM_NetContent" containment="true" eOpposite="#//TM_NetContent/net"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="#//TM_Name"
+        containment="true" eOpposite="#//TM_Name/net"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_NetContent" abstract="true" eSuperTypes="#//TM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="net" lowerBound="1" eType="#//TM_NetElement"
+        eOpposite="#//TM_NetElement/contents"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="#//TM_Name"
+        containment="true" eOpposite="#//TM_Name/netContent"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_LabeledElement" abstract="true" eSuperTypes="#//TM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="labels" ordered="false"
+        upperBound="-1" eType="#//TM_Label" containment="true" eOpposite="#//TM_Label/labeledElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_Label" eSuperTypes="#//TM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="labeledElement" lowerBound="1"
+        eType="#//TM_LabeledElement" eOpposite="#//TM_LabeledElement/labels"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_Name" eSuperTypes="#//TM_LabeledElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="net" eType="#//TM_NetElement"
+        eOpposite="#//TM_NetElement/name"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="netContent" eType="#//TM_NetContent"
+        eOpposite="#//TM_NetContent/name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_NetContentElement" abstract="true"
+      eSuperTypes="#//TM_NetContent #//TM_IdedElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_Arc" eSuperTypes="#//TM_NetContent #//TM_IdedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="#//TM_NetContentElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="#//TM_NetContentElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_Place" eSuperTypes="#//TM_NetContentElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TM_Transition" eSuperTypes="#//TM_NetContentElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_LocatedElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_IdedElement" abstract="true" eSuperTypes="#//fuTM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_URI" eSuperTypes="#//fuTM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_PNMLDocument" eSuperTypes="#//fuTM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="xmlns" lowerBound="1" eType="#//fuTM_URI"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nets" ordered="false" lowerBound="1"
+        upperBound="-1" eType="#//fuTM_NetElement" containment="true" eOpposite="#//fuTM_NetElement/document"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_NetElement" eSuperTypes="#//fuTM_IdedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//fuTM_URI"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="document" lowerBound="1"
+        eType="#//fuTM_PNMLDocument" eOpposite="#//fuTM_PNMLDocument/nets"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contents" ordered="false"
+        upperBound="-1" eType="#//fuTM_NetContent" containment="true" eOpposite="#//fuTM_NetContent/net"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="#//fuTM_Name"
+        containment="true" eOpposite="#//fuTM_Name/net"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_NetContent" abstract="true" eSuperTypes="#//fuTM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="net" lowerBound="1" eType="#//fuTM_NetElement"
+        eOpposite="#//fuTM_NetElement/contents"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="#//fuTM_Name"
+        containment="true" eOpposite="#//fuTM_Name/netContent"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_LabeledElement" abstract="true"
+      eSuperTypes="#//fuTM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="labels" ordered="false"
+        upperBound="-1" eType="#//fuTM_Label" containment="true" eOpposite="#//fuTM_Label/labeledElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_Label" eSuperTypes="#//fuTM_LocatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="labeledElement" lowerBound="1"
+        eType="#//fuTM_LabeledElement" eOpposite="#//fuTM_LabeledElement/labels"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_Name" eSuperTypes="#//fuTM_LabeledElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="net" eType="#//fuTM_NetElement"
+        eOpposite="#//fuTM_NetElement/name"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="netContent" eType="#//fuTM_NetContent"
+        eOpposite="#//fuTM_NetContent/name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_NetContentElement" abstract="true"
+      eSuperTypes="#//fuTM_NetContent #//fuTM_IdedElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_Arc" eSuperTypes="#//fuTM_NetContent #//fuTM_IdedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="#//fuTM_NetContentElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="#//fuTM_NetContentElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_Place" eSuperTypes="#//fuTM_NetContentElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="fuTM_Transition" eSuperTypes="#//fuTM_NetContentElement"/>
+</ecore:EPackage>

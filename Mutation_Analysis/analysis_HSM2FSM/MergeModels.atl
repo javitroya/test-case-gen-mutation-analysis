@@ -1,0 +1,154 @@
+module MergeModels;
+create OUT : JointModel from IN1 : HSM, IN2 : FSM;
+
+--helper def : root : JointModel!JointMM = OclAny;
+--
+--entrypoint rule CreateContainer(){
+--	to
+--		jm : JointModel!JointMM(
+--			--The source and target models are suppose to have only one root element
+--			sourceRoot <- BibTexModel!BibTeXFile.allInstancesFrom('IN1') -> first(),
+--			targetRoot <- DocBookModel!DocBook.allInstancesFrom('IN2')->first()
+--		)
+--	do{
+--		thisModule.root <- jm;
+--	}
+--}
+
+-------------For each class that is not abstract in the source model (from inner to outer)-------------------
+--A filter is necessary when there are non-abstract classes having children, see BibTex2DocBook example
+
+rule StateMachine2SrcStateMachine{
+	from s : HSM!StateMachine
+	to   t : JointModel!SrcStateMachine(
+			name <- s.name,
+			transitions <- s.transitions,
+			states <- s.states
+		)
+}
+
+rule Transition2SrcTransition{
+	from
+		s : HSM!Transition
+	to
+		t : JointModel!SrcTransition(
+			label <- s.label,
+			stateMachine <- s.stateMachine,
+			source <- s.source,
+			target <- s.target
+		)
+}
+
+--rule AbstractState2SrcAbstractState{
+--	from
+--		s : HSM!AbstractState
+--	to
+--		t : JointModel!SrcAbstractState(
+--			name <- s.name,
+--			stateMachine <- s.stateMachine,
+--			compositeStates <- s.compositeStates
+--		)
+--}
+
+rule InitialState2SrcInitialState{
+	from
+		s : HSM!InitialState
+	to
+		t : JointModel!SrcInitialState(
+			name <- s.name,
+			stateMachine <- s.stateMachine,
+			compositeStates <- s.compositeStates
+		)
+}
+
+rule ResgularState2SrcRegularState{
+	from
+		s : HSM!RegularState
+	to
+		t : JointModel!SrcRegularState(
+			name <- s.name,
+			stateMachine <- s.stateMachine,
+			compositeStates <- s.compositeStates
+		)
+}
+
+rule CompositeState2SrcCompositeState{
+	from
+		s : HSM!CompositeState
+	to
+		t : JointModel!SrcCompositeState(
+			name <- s.name,
+			stateMachine <- s.stateMachine,
+			compositeStates <- s.compositeStates,
+			states <- s.states
+		)
+}
+
+-----------------For each class that is not abstract in the target model-------------------
+
+rule StateMachine2TrgStateMachine{
+	from s : FSM!StateMachine
+	to   t : JointModel!TrgStateMachine(
+			name <- s.name,
+			transitions <- s.transitions,
+			states <- s.states
+		)
+}
+
+rule Transition2TrgTransition{
+	from
+		s : FSM!Transition
+	to
+		t : JointModel!TrgTransition(
+			label <- s.label,
+			stateMachine <- s.stateMachine,
+			source <- s.source,
+			target <- s.target
+		)
+}
+
+--rule AbstractState2TrgAbstractState{
+--	from
+--		s : FSM!AbstractState
+--	to
+--		t : JointModel!TrgAbstractState(
+--			name <- s.name,
+--			stateMachine <- s.stateMachine,
+--			compositeStates <- s.compositeStates
+--		)
+--}
+
+rule InitialState2TrgInitialState{
+	from
+		s : FSM!InitialState
+	to
+		t : JointModel!TrgInitialState(
+			name <- s.name,
+			stateMachine <- s.stateMachine,
+			compositeStates <- s.compositeStates
+		)
+}
+
+rule ResgularState2TrgRegularState{
+	from
+		s : FSM!RegularState
+	to
+		t : JointModel!TrgRegularState(
+			name <- s.name,
+			stateMachine <- s.stateMachine,
+			compositeStates <- s.compositeStates
+		)
+}
+
+rule CompositeState2TrgCompositeState{
+	from
+		s : FSM!CompositeState
+	to
+		t : JointModel!TrgCompositeState(
+			name <- s.name,
+			stateMachine <- s.stateMachine,
+			compositeStates <- s.compositeStates,
+			states <- s.states
+		)
+}
+
